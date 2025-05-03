@@ -1,28 +1,33 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-REPO_DIR="/workspaces/server-minecraft"
-BACKUP_DIR="${REPO_DIR}/backups"
+# 1. Ubicación
+cd /workspaces/server-minecraft
+
+# 2. Verificar world/
+if [ ! -d world ]; then
+  echo "ERROR: no existe la carpeta 'world/' en $(pwd)"
+  exit 1
+fi
+
+# 3. Backup
 TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+BACKUP_FILE="backups/world-${TIMESTAMP}.tar.gz"
+mkdir -p backups
+tar -czf "$BACKUP_FILE" world/ \
+  && echo "[$(date)] Backup creado: $BACKUP_FILE"
 
-# 2.1 Crear carpeta de backups y generar copia
-mkdir -p "$BACKUP_DIR"
-tar -czf "${BACKUP_DIR}/world-${TIMESTAMP}.tar.gz" world/ \
-  && echo "[$(date)] Backup creado: world-${TIMESTAMP}.tar.gz"  # :contentReference[oaicite:7]{index=7}
+# 4. Rotación (últimos 10)
+ls -1t backups | sed -e '1,10d' | xargs -r rm -f
 
-# 2.2 Rotar backups: conservar solo las 10 más recientes
-cd "$BACKUP_DIR"
-ls -1t | sed -e '1,10d' | xargs -r rm -f --   # :contentReference[oaicite:8]{index=8}
-cd "$REPO_DIR"
-
-# 2.3 Configurar Git y sincronizar con main
+# 5. Git: stash automático y rebase
 git config user.name "auto-backup-bot"
 git config user.email "backup@github.com"
-git checkout main                         # :contentReference[oaicite:9]{index=9}
-git pull --rebase origin main             # :contentReference[oaicite:10]{index=10}
+git checkout main
+git pull --rebase --autostash origin main
 
-# 2.4 Añadir, commitear y empujar al remoto
-git add "backups/world-${TIMESTAMP}.tar.gz"
-git commit -m "Backup world ${TIMESTAMP}" # :contentReference[oaicite:11]{index=11}
+# 6. Commit y push de la copia nueva
+git add "$BACKUP_FILE"
+git commit -m "Backup world ${TIMESTAMP}"
 git push "https://$GITHUB_AUTH_TOKEN@github.com/<usuario>/<repositorio>.git" main \
-  && echo "[$(date)] Backup empujado a main"  # :contentReference[oaicite:12]{index=12}
+  && echo "[$(date)] Backup empujado a main"

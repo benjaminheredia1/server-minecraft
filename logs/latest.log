@@ -1,8 +1,27 @@
-[00:50:10] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[00:50:10] [main/INFO]: Loading 4 mods:
+[03:45:46] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[03:45:46] [main/INFO]: Loading 4 mods:
 	- fabricloader 0.16.14
 	   \-- mixinextras 0.4.1
 	- java 21
 	- minecraft 1.21.5
-[00:50:10] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[00:50:19] [main/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[03:45:46] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[03:45:52] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[03:45:54] [main/INFO]: Loaded 1373 recipes
+[03:45:54] [main/INFO]: Loaded 1484 advancements
+[03:45:54] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[03:45:54] [Server thread/INFO]: Loading properties
+[03:45:54] [Server thread/INFO]: Default game type: SURVIVAL
+[03:45:54] [Server thread/INFO]: Generating keypair
+[03:45:54] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:45:54] [Server thread/INFO]: Using epoll channel type
+[03:45:54] [Server thread/INFO]: Preparing level "world"
+[03:45:55] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[03:45:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:45:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:45:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:45:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:45:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:45:57] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[03:45:57] [Server thread/INFO]: Time elapsed: 2625 ms
+[03:45:57] [Server thread/INFO]: Done (2.965s)! For help, type "help"
+[03:46:57] [Server thread/INFO]: Server empty for 60 seconds, pausing
