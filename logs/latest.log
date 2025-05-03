@@ -1,7 +1,6 @@
-[13:28:02] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[13:28:02] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[13:28:02] [main/INFO]: Loading 167 mods:
-	- advancednetherite 2.2.3-1.21.5
+[21:17:39] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[21:17:39] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[21:17:40] [main/INFO]: Loading 163 mods:
 	- appleskin 3.0.6+mc1.21.5
 	- architectury 16.1.4
 	- balm 21.5.14
@@ -103,16 +102,14 @@
 	- hopobettermineshaft 1.3.1
 	- hopobetterruinedportal 1.4.6
 	- hopobetterunderwaterruins 1.2.3
-	- illagerinvasion 21.5.3
-	   |-- mm 2.3
-	   \-- neoforgedatapackextensions 21.5.0
 	- incendium 5.4.6
 	- inventoryessentials 21.5.1
 	- inventorytotem 3.4
 	- jade 18.1.0+fabric
 	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
 	- lithium 0.16.2+mc1.21.5
-	- mcwdoors 1.1.2
 	- mcwfences 1.2.0
 	- mcwpaintings 1.0.5
 	- mcwstairs 1.0.1
@@ -130,7 +127,6 @@
 	- nullscape 1.2.11
 	- passiveshield 3.7
 	- placeholder-api 2.6.2+1.21.5
-	- puffish_skills 0.15.4
 	- puzzleslib 21.5.9
 	- resourcefullib 3.5.0
 	   |-- com_teamresourceful_bytecodecs 1.1.3
@@ -185,167 +181,79 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[13:28:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[13:28:03] [main/INFO]: Compatibility level set to JAVA_21
-[13:28:03] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'illagerinvasion.fabric.refmap.json' for illagerinvasion.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[13:28:03] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
-[13:28:03] [main/WARN]: Reference map 'neoforgedatapackextensions.common.refmap.json' for neoforgedatapackextensions.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[13:28:03] [main/INFO]: Loading config WWMixinsConfig from wilderwild
-[13:28:03] [main/INFO]: Saving config WWMixinsConfig from wilderwild
-[13:28:04] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
-[13:28:04] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
-[13:28:04] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[13:28:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[13:28:07] [main/INFO]: Loading config WWBlockConfig from wilderwild
-[13:28:08] [main/INFO]: Saving config WWBlockConfig from wilderwild
-[13:28:10] [main/INFO]: Loading config WWEntityConfig from wilderwild
-[13:28:10] [main/INFO]: Saving config WWEntityConfig from wilderwild
-[13:28:14] [main/INFO]: Initializing platform helper for Advanced Netherite!
-[13:28:14] [main/INFO]: Loading Collective version 8.3.
-[13:28:14] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
-[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformCompat@215695dd for service interface com.faboslav.friendsandfoes.common.platform.PlatformCompat
-[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformHelper@cda007c for service interface com.faboslav.friendsandfoes.common.platform.PlatformHelper
-[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.ProcessorTypes@7ce71a94 for service interface com.faboslav.friendsandfoes.common.platform.ProcessorTypes
-[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.BiomeModifications@6a2ef31d for service interface com.faboslav.friendsandfoes.common.platform.BiomeModifications
-[13:28:14] [main/INFO]: Loading config FrozenLibConfig from frozenlib
-[13:28:14] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[13:28:14] [main/INFO]: Constructing common components for illagerinvasion:main
-[13:28:16] [main/INFO]: Definitely not up to no good
-[13:28:16] [main/INFO]: My Totem Doll Initialized
-[13:28:16] [main/INFO]: Constructing common components for puzzleslib:main
-[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[13:28:16] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[13:28:16] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[13:28:16] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[13:28:16] [main/INFO]: Constructing common components for visualworkbench:main
-[13:28:16] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[13:28:16] [main/INFO]: [voicechat] Compatibility version 18
-[13:28:16] [main/INFO]: [voicechat] Loading plugins
-[13:28:16] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[13:28:16] [main/INFO]: [voicechat] Initializing plugins
-[13:28:16] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[13:28:17] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 4
-[13:28:17] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
-[13:28:17] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
-[13:28:17] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
-[13:28:17] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 3 Datafixer optimizations took 127 milliseconds
-[13:28:17] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
-[13:28:17] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
-[13:28:17] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 458 milliseconds
-[13:28:17] [main/INFO]: DataFixes for Wilder Wild have been applied
-[13:28:18] [main/INFO]: Adding Music And Ambience for wilderwild
-[13:28:18] [main/INFO]: Overriding Water Colors for wilderwild
-[13:28:18] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
-[13:28:18] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[13:28:18] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[13:28:18] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
-[13:28:18] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
-[13:28:18] [main/INFO]: Saving config WWMixinsConfig from wilderwild
-[13:28:18] [main/INFO]: Saving config WWBlockConfig from wilderwild
-[13:28:18] [main/INFO]: Saving config WWEntityConfig from wilderwild
-[13:28:18] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[13:28:18] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
-[13:28:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[13:28:24] [main/INFO]: Loaded 2856 recipes
-[13:28:24] [main/INFO]: Loading config WWAmbienceAndMiscConfig from wilderwild
-[13:28:24] [main/INFO]: Saving config WWAmbienceAndMiscConfig from wilderwild
-[13:28:24] [main/INFO]: Loaded 2790 advancements
-[13:28:24] [main/INFO]: Loaded 32 entity animations
-[13:28:24] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
-[13:28:24] [main/INFO]: Applied 4177 biome modifications to 106 of 106 new biomes in 98.13 ms
-[13:28:24] [Server thread/INFO]: Dispatching loading event for config illagerinvasion-server.toml
-[13:28:24] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
-[13:28:24] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
-[13:28:24] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
-[13:28:24] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[13:28:24] [Server thread/INFO]: Loading properties
-[13:28:24] [Server thread/INFO]: Default game type: SURVIVAL
-[13:28:24] [Server thread/INFO]: Generating keypair
-[13:28:25] [Server thread/INFO]: Starting Minecraft server on *:25565
-[13:28:25] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
-[13:28:25] [Server thread/INFO]: Using epoll channel type
-[13:28:25] [Server thread/INFO]: Using epoll channel type
-[13:28:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[13:28:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[13:28:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[13:28:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[13:28:25] [Server thread/INFO]: Preparing level "world"
-[13:28:25] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
-[13:28:25] [Server thread/INFO]: Wilder Wild's No Preliminary Surface Overworld Surface Rules have been added!
-[13:28:25] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
-[13:28:25] [e4mc_minecraft-init/INFO]: using relay na
-[13:28:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[13:28:26] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x0bcb174a, QuicStreamAddress{streamId=0}]
-[13:28:26] [nioEventLoopGroup-2-1/INFO]: control channel write complete
-[13:28:26] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
-[13:28:26] [nioEventLoopGroup-2-1/INFO]: Domain assigned: narrow-fence.na.e4mc.link
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[13:28:34] [Server thread/INFO]: Time elapsed: 8303 ms
-[13:28:34] [Server thread/INFO]: Done (9.012s)! For help, type "help"
-[13:28:34] [Server thread/INFO]: [REI] ----------------------------------------
-[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[13:28:34] [Server thread/INFO]: [REI] Plugins (3):
-[13:28:34] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[13:28:34] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[13:28:34] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[13:28:34] [Server thread/INFO]: [REI] ----------------------------------------
-[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.891 ms, totaling 81.74 ms.
-[13:28:34] [Server thread/INFO]: [REI] ****************************************
-[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[13:28:34] [Server thread/INFO]: [REI] Plugins (3):
-[13:28:34] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[13:28:34] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[13:28:34] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[13:28:34] [Server thread/INFO]: [REI] ****************************************
-[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.030 ms, totaling 102.5 ms.
-[13:28:34] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
-[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[13:28:34] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
-[13:28:34] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[13:28:34] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[13:28:34] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[13:28:34] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[13:28:34] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[13:28:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@1c679b72[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
-[13:29:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[13:29:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@4f78f34c[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
-[13:32:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@39b2b00d[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
-[13:33:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@62f08726[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
+[21:17:40] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[21:17:40] [main/INFO]: Compatibility level set to JAVA_21
+[21:17:40] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[21:17:41] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
+[21:17:41] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[21:17:41] [main/INFO]: Loading config WWMixinsConfig from wilderwild
+[21:17:41] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[21:17:42] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[21:17:42] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[21:17:42] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[21:17:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[21:17:47] [main/INFO]: Loading config WWBlockConfig from wilderwild
+[21:17:47] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[21:17:53] [main/INFO]: Loading config WWEntityConfig from wilderwild
+[21:17:53] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[21:17:57] [main/INFO]: Loading Collective version 8.3.
+[21:17:58] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[21:17:58] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformCompat@46e2ba4c for service interface com.faboslav.friendsandfoes.common.platform.PlatformCompat
+[21:17:58] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformHelper@768711df for service interface com.faboslav.friendsandfoes.common.platform.PlatformHelper
+[21:17:58] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.ProcessorTypes@6cb6bc61 for service interface com.faboslav.friendsandfoes.common.platform.ProcessorTypes
+[21:17:58] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.BiomeModifications@c8608d1 for service interface com.faboslav.friendsandfoes.common.platform.BiomeModifications
+[21:17:58] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[21:17:58] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[21:17:58] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[21:18:00] [main/INFO]: My Totem Doll Initialized
+[21:18:00] [main/INFO]: Constructing common components for puzzleslib:main
+[21:18:00] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[21:18:00] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[21:18:00] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[21:18:00] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[21:18:00] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[21:18:00] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[21:18:00] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[21:18:00] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[21:18:00] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[21:18:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[21:18:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[21:18:00] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[21:18:00] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[21:18:00] [main/INFO]: Constructing common components for visualworkbench:main
+[21:18:01] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[21:18:01] [main/INFO]: [voicechat] Compatibility version 18
+[21:18:01] [main/INFO]: [voicechat] Loading plugins
+[21:18:01] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:18:01] [main/INFO]: [voicechat] Initializing plugins
+[21:18:01] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:18:01] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 4
+[21:18:01] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[21:18:01] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[21:18:01] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[21:18:01] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 3 Datafixer optimizations took 145 milliseconds
+[21:18:01] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
+[21:18:01] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
+[21:18:02] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 523 milliseconds
+[21:18:02] [main/INFO]: DataFixes for Wilder Wild have been applied
+[21:18:03] [main/INFO]: Adding Music And Ambience for wilderwild
+[21:18:03] [main/INFO]: Overriding Water Colors for wilderwild
+[21:18:03] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[21:18:03] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[21:18:03] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[21:18:03] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[21:18:03] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
+[21:18:03] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[21:18:03] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[21:18:03] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[21:18:03] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[21:18:03] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[21:18:03] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[21:18:03] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
