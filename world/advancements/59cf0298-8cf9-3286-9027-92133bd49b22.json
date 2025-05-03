@@ -1,0 +1,35 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-05-03 04:34:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:river": "2025-05-03 05:47:43 +0000",
+      "minecraft:meadow": "2025-05-03 04:34:24 +0000",
+      "minecraft:plains": "2025-05-03 04:34:33 +0000"
+    },
+    "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-05-03 05:13:03 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-03 05:22:06 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/yellow_dye_from_dandelion": {
+    "criteria": {
+      "has_dandelion": "2025-05-03 05:22:06 +0000"
+    },
+    "done": true
+  },
+  "DataVersion": 4325
+}
