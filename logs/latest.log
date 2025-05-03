@@ -1,208 +1,351 @@
-[05:50:56] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[05:50:56] [main/INFO]: Loading 4 mods:
+[13:28:02] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[13:28:02] [ForkJoinPool-1-worker-2/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[13:28:02] [main/INFO]: Loading 167 mods:
+	- advancednetherite 2.2.3-1.21.5
+	- appleskin 3.0.6+mc1.21.5
+	- architectury 16.1.4
+	- balm 21.5.14
+	   \-- kuma_api 21.5.2
+	- cardinal-components 6.3.1
+	   |-- cardinal-components-base 6.3.1
+	   |-- cardinal-components-block 6.3.1
+	   |-- cardinal-components-chunk 6.3.1
+	   |-- cardinal-components-entity 6.3.1
+	   |-- cardinal-components-item 6.3.1
+	   |-- cardinal-components-level 6.3.1
+	   |-- cardinal-components-scoreboard 6.3.1
+	   \-- cardinal-components-world 6.3.1
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- collective 8.3
+	- cristellib 2.0.2
+	   \-- blue_endless_jankson 1.2.3
+	- doubledoors 7.0
+	- durabilitytooltip 1.1.5
+	- e4mc_minecraft 5.3.1
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- entityculling 1.7.4
+	- fabric-api 0.121.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.0+9c0dd47249
+	   |-- fabric-data-generation-api-v1 22.3.4+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+081cc04349
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.2+kotlin.2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
 	- fabricloader 0.16.14
 	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.5.1
+	   |-- com_electronwill_night-config_core 3.8.1
+	   \-- com_electronwill_night-config_toml 3.8.1
+	- formations 1.0.3
+	- formationsnether 1.0.5
+	- formationsoverworld 1.0.4
+	- friendsandfoes 4.0.1
+	- geophilic 3.4.1
+	- hearths 1.0.3
+	- hopobettermineshaft 1.3.1
+	- hopobetterruinedportal 1.4.6
+	- hopobetterunderwaterruins 1.2.3
+	- illagerinvasion 21.5.3
+	   |-- mm 2.3
+	   \-- neoforgedatapackextensions 21.5.0
+	- incendium 5.4.6
+	- inventoryessentials 21.5.1
+	- inventorytotem 3.4
+	- jade 18.1.0+fabric
 	- java 21
+	- lithium 0.16.2+mc1.21.5
+	- mcwdoors 1.1.2
+	- mcwfences 1.2.0
+	- mcwpaintings 1.0.5
+	- mcwstairs 1.0.1
+	- mcwtrpdoors 1.0.0
+	- mes 1.4.3-1.21.5-fabric
 	- minecraft 1.21.5
-[05:50:56] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[05:51:02] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[05:51:04] [main/INFO]: Loaded 1373 recipes
-[05:51:04] [main/INFO]: Loaded 1484 advancements
-[05:51:04] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[05:51:04] [Server thread/INFO]: Loading properties
-[05:51:04] [Server thread/INFO]: Default game type: SURVIVAL
-[05:51:04] [Server thread/INFO]: Generating keypair
-[05:51:04] [Server thread/INFO]: Starting Minecraft server on 0.0.0.0:25565
-[05:51:04] [Server thread/INFO]: Using default channel type
-[05:51:04] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[05:51:04] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[05:51:04] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[05:51:04] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[05:51:04] [Server thread/INFO]: Preparing level "world"
-[05:51:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[05:51:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:51:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:51:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:51:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:51:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:51:08] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[05:51:08] [Server thread/INFO]: Time elapsed: 2945 ms
-[05:51:08] [Server thread/INFO]: Done (3.379s)! For help, type "help"
-[05:51:09] [Server thread/INFO]: droidmashd[/127.170.252.58:35965] logged in with entity id 34 at (-35.125951724963215, 67.0, -51.70089987538419)
-[05:51:09] [Server thread/INFO]: droidmashd joined the game
-[05:51:20] [Server thread/INFO]: /advancement (grant|revoke)
-[05:51:20] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[05:51:20] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[05:51:20] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[05:51:20] [Server thread/INFO]: /clear [<targets>]
-[05:51:20] [Server thread/INFO]: /clone (<begin>|from)
-[05:51:20] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[05:51:20] [Server thread/INFO]: /data (merge|get|remove|modify)
-[05:51:20] [Server thread/INFO]: /datapack (enable|disable|list)
-[05:51:20] [Server thread/INFO]: /debug (start|stop|function)
-[05:51:20] [Server thread/INFO]: /defaultgamemode <gamemode>
-[05:51:20] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[05:51:20] [Server thread/INFO]: /effect (clear|give)
-[05:51:20] [Server thread/INFO]: /me <action>
-[05:51:20] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[05:51:20] [Server thread/INFO]: /experience (add|set|query)
-[05:51:20] [Server thread/INFO]: /xp -> experience
-[05:51:20] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
-[05:51:20] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[05:51:20] [Server thread/INFO]: /forceload (add|remove|query)
-[05:51:20] [Server thread/INFO]: /function <name> [<arguments>|with]
-[05:51:20] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[05:51:20] [Server thread/INFO]: /gamerule (allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[05:51:20] [Server thread/INFO]: /give <targets> <item> [<count>]
-[05:51:20] [Server thread/INFO]: /help [<command>]
-[05:51:21] [Server thread/INFO]: /item (replace|modify)
-[05:51:21] [Server thread/INFO]: /kick <targets> [<reason>]
-[05:51:21] [Server thread/INFO]: /kill [<targets>]
-[05:51:21] [Server thread/INFO]: /list [uuids]
-[05:51:21] [Server thread/INFO]: /locate (structure|biome|poi)
-[05:51:21] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[05:51:21] [Server thread/INFO]: /msg <targets> <message>
-[05:51:21] [Server thread/INFO]: /tell -> msg
-[05:51:21] [Server thread/INFO]: /w -> msg
-[05:51:21] [Server thread/INFO]: /particle <name> [<pos>]
-[05:51:21] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[05:51:21] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[05:51:21] [Server thread/INFO]: /random (value|roll|reset)
-[05:51:21] [Server thread/INFO]: /reload
-[05:51:21] [Server thread/INFO]: /recipe (give|take)
-[05:51:21] [Server thread/INFO]: /return (<value>|fail|run)
-[05:51:21] [Server thread/INFO]: /ride <target> (mount|dismount)
-[05:51:21] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[05:51:21] [Server thread/INFO]: /say <message>
-[05:51:21] [Server thread/INFO]: /schedule (function|clear)
-[05:51:21] [Server thread/INFO]: /scoreboard (objectives|players)
-[05:51:21] [Server thread/INFO]: /seed
-[05:51:21] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
-[05:51:21] [Server thread/INFO]: /spawnpoint [<targets>]
-[05:51:21] [Server thread/INFO]: /setworldspawn [<pos>]
-[05:51:21] [Server thread/INFO]: /spectate [<target>]
-[05:51:21] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[05:51:21] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[05:51:21] [Server thread/INFO]: /summon <entity> [<pos>]
-[05:51:21] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[05:51:21] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[05:51:21] [Server thread/INFO]: /teammsg <message>
-[05:51:21] [Server thread/INFO]: /tm -> teammsg
-[05:51:21] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[05:51:21] [Server thread/INFO]: /tp -> teleport
-[05:51:21] [Server thread/INFO]: /tellraw <targets> <message>
-[05:51:21] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
-[05:51:21] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[05:51:21] [Server thread/INFO]: /time (set|add|query)
-[05:51:21] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[05:51:21] [Server thread/INFO]: /trigger <objective> [add|set]
-[05:51:21] [Server thread/INFO]: /weather (clear|rain|thunder)
-[05:51:21] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[05:51:21] [Server thread/INFO]: /jfr (start|stop)
-[05:51:21] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[05:51:21] [Server thread/INFO]: /banlist [ips|players]
-[05:51:21] [Server thread/INFO]: /ban <targets> [<reason>]
-[05:51:21] [Server thread/INFO]: /deop <targets>
-[05:51:21] [Server thread/INFO]: /op <targets>
-[05:51:21] [Server thread/INFO]: /pardon <targets>
-[05:51:21] [Server thread/INFO]: /pardon-ip <target>
-[05:51:21] [Server thread/INFO]: /perf (start|stop)
-[05:51:21] [Server thread/INFO]: /save-all [flush]
-[05:51:21] [Server thread/INFO]: /save-off
-[05:51:21] [Server thread/INFO]: /save-on
-[05:51:21] [Server thread/INFO]: /setidletimeout <minutes>
-[05:51:21] [Server thread/INFO]: /stop
-[05:51:21] [Server thread/INFO]: /transfer <hostname> [<port>]
-[05:51:21] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[05:52:12] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[05:52:12] [Server thread/INFO]: [A[A[A[A[A[A[A[A[A[A[<--[HERE]
-[05:52:15] [Server thread/INFO]: /advancement (grant|revoke)
-[05:52:15] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[05:52:15] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[05:52:15] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[05:52:15] [Server thread/INFO]: /clear [<targets>]
-[05:52:15] [Server thread/INFO]: /clone (<begin>|from)
-[05:52:15] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[05:52:15] [Server thread/INFO]: /data (merge|get|remove|modify)
-[05:52:15] [Server thread/INFO]: /datapack (enable|disable|list)
-[05:52:15] [Server thread/INFO]: /debug (start|stop|function)
-[05:52:15] [Server thread/INFO]: /defaultgamemode <gamemode>
-[05:52:15] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[05:52:15] [Server thread/INFO]: /effect (clear|give)
-[05:52:15] [Server thread/INFO]: /me <action>
-[05:52:15] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[05:52:15] [Server thread/INFO]: /experience (add|set|query)
-[05:52:15] [Server thread/INFO]: /xp -> experience
-[05:52:15] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
-[05:52:15] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[05:52:15] [Server thread/INFO]: /forceload (add|remove|query)
-[05:52:15] [Server thread/INFO]: /function <name> [<arguments>|with]
-[05:52:15] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[05:52:15] [Server thread/INFO]: /gamerule (allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[05:52:15] [Server thread/INFO]: /give <targets> <item> [<count>]
-[05:52:15] [Server thread/INFO]: /help [<command>]
-[05:52:15] [Server thread/INFO]: /item (replace|modify)
-[05:52:15] [Server thread/INFO]: /kick <targets> [<reason>]
-[05:52:15] [Server thread/INFO]: /kill [<targets>]
-[05:52:15] [Server thread/INFO]: /list [uuids]
-[05:52:15] [Server thread/INFO]: /locate (structure|biome|poi)
-[05:52:15] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[05:52:15] [Server thread/INFO]: /msg <targets> <message>
-[05:52:15] [Server thread/INFO]: /tell -> msg
-[05:52:15] [Server thread/INFO]: /w -> msg
-[05:52:15] [Server thread/INFO]: /particle <name> [<pos>]
-[05:52:15] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[05:52:15] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[05:52:15] [Server thread/INFO]: /random (value|roll|reset)
-[05:52:15] [Server thread/INFO]: /reload
-[05:52:15] [Server thread/INFO]: /recipe (give|take)
-[05:52:15] [Server thread/INFO]: /return (<value>|fail|run)
-[05:52:15] [Server thread/INFO]: /ride <target> (mount|dismount)
-[05:52:15] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[05:52:15] [Server thread/INFO]: /say <message>
-[05:52:15] [Server thread/INFO]: /schedule (function|clear)
-[05:52:15] [Server thread/INFO]: /scoreboard (objectives|players)
-[05:52:15] [Server thread/INFO]: /seed
-[05:52:15] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
-[05:52:15] [Server thread/INFO]: /spawnpoint [<targets>]
-[05:52:15] [Server thread/INFO]: /setworldspawn [<pos>]
-[05:52:15] [Server thread/INFO]: /spectate [<target>]
-[05:52:15] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[05:52:15] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
-[05:52:15] [Server thread/INFO]: /summon <entity> [<pos>]
-[05:52:15] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[05:52:15] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[05:52:15] [Server thread/INFO]: /teammsg <message>
-[05:52:15] [Server thread/INFO]: /tm -> teammsg
-[05:52:15] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[05:52:15] [Server thread/INFO]: /tp -> teleport
-[05:52:15] [Server thread/INFO]: /tellraw <targets> <message>
-[05:52:15] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
-[05:52:15] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[05:52:15] [Server thread/INFO]: /time (set|add|query)
-[05:52:15] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[05:52:15] [Server thread/INFO]: /trigger <objective> [add|set]
-[05:52:15] [Server thread/INFO]: /weather (clear|rain|thunder)
-[05:52:15] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[05:52:15] [Server thread/INFO]: /jfr (start|stop)
-[05:52:15] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[05:52:15] [Server thread/INFO]: /banlist [ips|players]
-[05:52:15] [Server thread/INFO]: /ban <targets> [<reason>]
-[05:52:15] [Server thread/INFO]: /deop <targets>
-[05:52:15] [Server thread/INFO]: /op <targets>
-[05:52:15] [Server thread/INFO]: /pardon <targets>
-[05:52:15] [Server thread/INFO]: /pardon-ip <target>
-[05:52:15] [Server thread/INFO]: /perf (start|stop)
-[05:52:15] [Server thread/INFO]: /save-all [flush]
-[05:52:15] [Server thread/INFO]: /save-off
-[05:52:15] [Server thread/INFO]: /save-on
-[05:52:15] [Server thread/INFO]: /setidletimeout <minutes>
-[05:52:15] [Server thread/INFO]: /stop
-[05:52:15] [Server thread/INFO]: /transfer <hostname> [<port>]
-[05:52:15] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[05:53:09] [Server thread/INFO]: droidmashd lost connection: Disconnected
-[05:53:09] [Server thread/INFO]: droidmashd left the game
-[05:53:33] [Server thread/INFO]: droidmashd[/127.170.252.58:52927] logged in with entity id 505 at (-56.1996177030116, 70.0, -36.02527147460706)
-[05:53:33] [Server thread/INFO]: droidmashd joined the game
-[05:55:34] [Server thread/INFO]: droidmashd lost connection: Disconnected
-[05:55:34] [Server thread/INFO]: droidmashd left the game
+	- mr_dungeons 1.9.0b
+	- mr_dungeons_andtaverns 1-v4.7
+	- mr_ketkets_furnicraft 5.2
+	- mr_mine_treasure 1.5.4
+	- mr_serversleep 1-datapack2
+	- mr_true_ending 1-v1.1.4a
+	- my-totem-doll 2.1.4+1.21.5
+	   \-- mixinsquared 0.2.0
+	- nullscape 1.2.11
+	- passiveshield 3.7
+	- placeholder-api 2.6.2+1.21.5
+	- puffish_skills 0.15.4
+	- puzzleslib 21.5.9
+	- resourcefullib 3.5.0
+	   |-- com_teamresourceful_bytecodecs 1.1.3
+	   \-- com_teamresourceful_yabn 1.0.3
+	- roughlyenoughitems 19.0.806
+	   \-- error_notifier 1.0.11
+	- skinshuffle 2.8.2+1.21.5
+	   |-- com_drewnoakes_metadata-extractor 2.19.0
+	   |-- com_konghq_unirest-java_standalone 3.11.9
+	   |-- commons-validator_commons-validator 1.7
+	   |-- org_jsoup_jsoup 1.16.1
+	   \-- spruceui 7.0.0+1.21.5
+	- spellbound_weapons_mr 4.1.3
+	- structory_towers 1.0.11
+	- supermartijn642configlib 1.1.8
+	- t_and_t 1.13.5
+	- trashslot 21.5.1
+	- travelersbackpack 10.5.1
+	- treeharvester 9.1
+	- universal-graves 3.7.1+1.21.5
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- polymer-core 0.12.1+1.21.5-rc2
+	   |    |-- polymer-networking 0.12.1+1.21.5-rc2
+	   |    |    \-- polymer-common 0.12.1+1.21.5-rc2
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.12.1+1.21.5-rc2
+	   |-- polymer-resource-pack 0.12.1+1.21.5-rc2
+	   |    \-- polymer-common 0.12.1+1.21.5-rc2
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-virtual-entity 0.12.1+1.21.5-rc2
+	   |    \-- polymer-common 0.12.1+1.21.5-rc2
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- predicate-api 0.6.0+1.21.2
+	   |-- server_translations_api 2.5.0+1.21.5-rc1
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- sgui 1.9.0+1.21.5
+	- visualworkbench 21.5.0
+	- voicechat 1.21.5-2.5.30
+	   \-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	- waystones 21.5.4
+	- wilderwild 4.0.7-mc1.21.5
+	   \-- frozenlib 2.1-mc1.21.5
+	- xaerominimap 25.2.5
+	- xaeroworldmap 1.39.8
+	- yet_another_config_lib_v3 3.6.6+1.21.5-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[13:28:03] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[13:28:03] [main/INFO]: Compatibility level set to JAVA_21
+[13:28:03] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'illagerinvasion.fabric.refmap.json' for illagerinvasion.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[13:28:03] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
+[13:28:03] [main/WARN]: Reference map 'neoforgedatapackextensions.common.refmap.json' for neoforgedatapackextensions.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[13:28:03] [main/INFO]: Loading config WWMixinsConfig from wilderwild
+[13:28:03] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[13:28:04] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[13:28:04] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[13:28:04] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[13:28:04] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[13:28:07] [main/INFO]: Loading config WWBlockConfig from wilderwild
+[13:28:08] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[13:28:10] [main/INFO]: Loading config WWEntityConfig from wilderwild
+[13:28:10] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[13:28:14] [main/INFO]: Initializing platform helper for Advanced Netherite!
+[13:28:14] [main/INFO]: Loading Collective version 8.3.
+[13:28:14] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformCompat@215695dd for service interface com.faboslav.friendsandfoes.common.platform.PlatformCompat
+[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformHelper@cda007c for service interface com.faboslav.friendsandfoes.common.platform.PlatformHelper
+[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.ProcessorTypes@7ce71a94 for service interface com.faboslav.friendsandfoes.common.platform.ProcessorTypes
+[13:28:14] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.BiomeModifications@6a2ef31d for service interface com.faboslav.friendsandfoes.common.platform.BiomeModifications
+[13:28:14] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[13:28:14] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[13:28:14] [main/INFO]: Constructing common components for illagerinvasion:main
+[13:28:16] [main/INFO]: Definitely not up to no good
+[13:28:16] [main/INFO]: My Totem Doll Initialized
+[13:28:16] [main/INFO]: Constructing common components for puzzleslib:main
+[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[13:28:16] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[13:28:16] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[13:28:16] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[13:28:16] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[13:28:16] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[13:28:16] [main/INFO]: Constructing common components for visualworkbench:main
+[13:28:16] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[13:28:16] [main/INFO]: [voicechat] Compatibility version 18
+[13:28:16] [main/INFO]: [voicechat] Loading plugins
+[13:28:16] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[13:28:16] [main/INFO]: [voicechat] Initializing plugins
+[13:28:16] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[13:28:17] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 4
+[13:28:17] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[13:28:17] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[13:28:17] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[13:28:17] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 3 Datafixer optimizations took 127 milliseconds
+[13:28:17] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
+[13:28:17] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
+[13:28:17] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 458 milliseconds
+[13:28:17] [main/INFO]: DataFixes for Wilder Wild have been applied
+[13:28:18] [main/INFO]: Adding Music And Ambience for wilderwild
+[13:28:18] [main/INFO]: Overriding Water Colors for wilderwild
+[13:28:18] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[13:28:18] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[13:28:18] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[13:28:18] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
+[13:28:18] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[13:28:18] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[13:28:18] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[13:28:18] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[13:28:18] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[13:28:18] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[13:28:18] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[13:28:24] [main/INFO]: Loaded 2856 recipes
+[13:28:24] [main/INFO]: Loading config WWAmbienceAndMiscConfig from wilderwild
+[13:28:24] [main/INFO]: Saving config WWAmbienceAndMiscConfig from wilderwild
+[13:28:24] [main/INFO]: Loaded 2790 advancements
+[13:28:24] [main/INFO]: Loaded 32 entity animations
+[13:28:24] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
+[13:28:24] [main/INFO]: Applied 4177 biome modifications to 106 of 106 new biomes in 98.13 ms
+[13:28:24] [Server thread/INFO]: Dispatching loading event for config illagerinvasion-server.toml
+[13:28:24] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
+[13:28:24] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
+[13:28:24] [Server thread/INFO]: [puffish_skills] Mod configuration loaded successfully!
+[13:28:24] [Server thread/INFO]: Starting minecraft server version 1.21.5
+[13:28:24] [Server thread/INFO]: Loading properties
+[13:28:24] [Server thread/INFO]: Default game type: SURVIVAL
+[13:28:24] [Server thread/INFO]: Generating keypair
+[13:28:25] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:28:25] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
+[13:28:25] [Server thread/INFO]: Using epoll channel type
+[13:28:25] [Server thread/INFO]: Using epoll channel type
+[13:28:25] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:28:25] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:28:25] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:28:25] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:28:25] [Server thread/INFO]: Preparing level "world"
+[13:28:25] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
+[13:28:25] [Server thread/INFO]: Wilder Wild's No Preliminary Surface Overworld Surface Rules have been added!
+[13:28:25] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
+[13:28:25] [e4mc_minecraft-init/INFO]: using relay na
+[13:28:26] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[13:28:26] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x0bcb174a, QuicStreamAddress{streamId=0}]
+[13:28:26] [nioEventLoopGroup-2-1/INFO]: control channel write complete
+[13:28:26] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
+[13:28:26] [nioEventLoopGroup-2-1/INFO]: Domain assigned: narrow-fence.na.e4mc.link
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Worker-Main-2/INFO]: Preparing spawn area: 0%
+[13:28:34] [Server thread/INFO]: Time elapsed: 8303 ms
+[13:28:34] [Server thread/INFO]: Done (9.012s)! For help, type "help"
+[13:28:34] [Server thread/INFO]: [REI] ----------------------------------------
+[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
+[13:28:34] [Server thread/INFO]: [REI] Plugins (3):
+[13:28:34] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:28:34] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:28:34] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:28:34] [Server thread/INFO]: [REI] ----------------------------------------
+[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 1.891 ms, totaling 81.74 ms.
+[13:28:34] [Server thread/INFO]: [REI] ****************************************
+[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
+[13:28:34] [Server thread/INFO]: [REI] Plugins (3):
+[13:28:34] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[13:28:34] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
+[13:28:34] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[13:28:34] [Server thread/INFO]: [REI] ****************************************
+[13:28:34] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.030 ms, totaling 102.5 ms.
+[13:28:34] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
+[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
+[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
+[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
+[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
+[13:28:34] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
+[13:28:34] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
+[13:28:34] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
+[13:28:34] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[13:28:34] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[13:28:34] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
+[13:28:34] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
+[13:28:37] [Server thread/INFO]: com.mojang.authlib.GameProfile@1c679b72[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
+[13:29:34] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[13:29:39] [Server thread/INFO]: com.mojang.authlib.GameProfile@4f78f34c[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
+[13:32:07] [Server thread/INFO]: com.mojang.authlib.GameProfile@39b2b00d[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
+[13:33:36] [Server thread/INFO]: com.mojang.authlib.GameProfile@62f08726[id=59cf0298-8cf9-3286-9027-92133bd49b22,name=droidmashd,properties={}] lost connection: Disconnected
