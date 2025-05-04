@@ -4434,13 +4434,13 @@
   },
   "incendium:technical/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
   "incendium:technical/inventory/sentrys_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4458,6 +4458,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-04 04:09:59 +0000"
+    },
+    "done": true
+  },
   "travelersbackpack:recipes/misc/fox": {
     "criteria": {
       "has_sweet_berries": "2025-05-04 02:42:55 +0000"
@@ -4466,7 +4472,7 @@
   },
   "incendium:technical/feed_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4502,7 +4508,7 @@
   },
   "incendium:technical/on_player_hurt": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4544,7 +4550,7 @@
   },
   "incendium:technical/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4563,6 +4569,18 @@
   "mt:treasure_advancements/first_rare_soulvalley_treasure": {
     "criteria": {
       "obtainchest": "2025-05-04 03:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-04 04:09:59 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2025-05-04 04:10:31 +0000"
     },
     "done": true
   },
@@ -4592,7 +4610,7 @@
   },
   "incendium:technical/inventory/firestorm": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4604,7 +4622,7 @@
   },
   "incendium:technical/give_ghastling": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4616,7 +4634,7 @@
   },
   "incendium:technical/on_kill": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4664,9 +4682,15 @@
   },
   "incendium:technical/multiplex_crossbow": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
+  },
+  "wilderwild:recipes/misc/scorched_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-04 04:09:59 +0000"
+    },
+    "done": true
   },
   "wilderwild:recipes/building_blocks/mossy_gabbro_bricks_from_moss_block": {
     "criteria": {
@@ -4682,7 +4706,7 @@
   },
   "incendium:technical/on_inventory_change": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4698,9 +4722,21 @@
     },
     "done": true
   },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2025-05-04 04:10:31 +0000"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
     "criteria": {
       "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2025-05-04 04:09:59 +0000"
     },
     "done": true
   },
@@ -4712,7 +4748,7 @@
   },
   "incendium:technical/holy_wrath": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
@@ -4724,7 +4760,7 @@
   },
   "incendium:technical/on_block": {
     "criteria": {
-      "log_spam_fixer": "2025-05-04 04:08:06 +0000"
+      "log_spam_fixer": "2025-05-04 04:13:06 +0000"
     },
     "done": false
   },
