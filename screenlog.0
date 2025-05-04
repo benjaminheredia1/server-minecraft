@@ -1,0 +1,376 @@
+[0;32m@benjaminheredia1 [0m➜ [1;34m/workspaces/server-minecraft [0;36m([1;31mmain[0;36m) [0m$ bash conf_arranque.sh 
+Starting net.fabricmc.loader.impl.game.minecraft.BundlerClassPathCapture
+2025-05-04T01:05:14.954686994Z main ERROR Cannot access RandomAccessFile java.io.FileNotFoundException: logs/latest.log (Permission denied) java.io.FileNotFoundException: logs/latest.log (Permission denied)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:137)
+	at knot//org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory.createManager(RollingRandomAccessFileManager.java:321)
+	at knot//org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory.createManager(RollingRandomAccessFileManager.java:290)
+	at knot//org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:146)
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:112)
+	at knot//org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.getRollingRandomAccessFileManager(RollingRandomAccessFileManager.java:174)
+	at knot//org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:137)
+	at knot//org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:57)
+	at knot//org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at knot//org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:639)
+	at knot//org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:728)
+	at knot//org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:750)
+	at knot//org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:263)
+	at knot//org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:257)
+	at knot//org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at knot//org.apache.logging.log4j.LogManager.getContext(LogManager.java:118)
+	at knot//org.apache.logging.log4j.LogManager.getLogger(LogManager.java:622)
+	at knot//net.fabricmc.loader.impl.game.minecraft.Log4jLogHandler.getLogger(Log4jLogHandler.java:58)
+	at knot//net.fabricmc.loader.impl.game.minecraft.Log4jLogHandler.log(Log4jLogHandler.java:51)
+	at net.fabricmc.loader.impl.util.log.BuiltinLogHandler.replay(BuiltinLogHandler.java:128)
+	at net.fabricmc.loader.impl.util.log.Log.init(Log.java:34)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.setupLogHandler(MinecraftGameProvider.java:386)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.initialize(MinecraftGameProvider.java:357)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:140)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+
+2025-05-04T01:05:14.965193953Z main ERROR Could not create plugin of type class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender for element RollingRandomAccessFile: java.lang.IllegalStateException: ManagerFactory [org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory@350aac89] unable to create manager for [logs/latest.log] with data [org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$FactoryData@1c5920df] java.lang.IllegalStateException: ManagerFactory [org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$RollingRandomAccessFileManagerFactory@350aac89] unable to create manager for [logs/latest.log] with data [org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager$FactoryData@1c5920df]
+	at knot//org.apache.logging.log4j.core.appender.AbstractManager.getManager(AbstractManager.java:148)
+	at knot//org.apache.logging.log4j.core.appender.OutputStreamManager.getManager(OutputStreamManager.java:112)
+	at knot//org.apache.logging.log4j.core.appender.rolling.RollingRandomAccessFileManager.getRollingRandomAccessFileManager(RollingRandomAccessFileManager.java:174)
+	at knot//org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:137)
+	at knot//org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender$Builder.build(RollingRandomAccessFileAppender.java:57)
+	at knot//org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:124)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at knot//org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:639)
+	at knot//org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:728)
+	at knot//org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:750)
+	at knot//org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:263)
+	at knot//org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:257)
+	at knot//org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at knot//org.apache.logging.log4j.LogManager.getContext(LogManager.java:118)
+	at knot//org.apache.logging.log4j.LogManager.getLogger(LogManager.java:622)
+	at knot//net.fabricmc.loader.impl.game.minecraft.Log4jLogHandler.getLogger(Log4jLogHandler.java:58)
+	at knot//net.fabricmc.loader.impl.game.minecraft.Log4jLogHandler.log(Log4jLogHandler.java:51)
+	at net.fabricmc.loader.impl.util.log.BuiltinLogHandler.replay(BuiltinLogHandler.java:128)
+	at net.fabricmc.loader.impl.util.log.Log.init(Log.java:34)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.setupLogHandler(MinecraftGameProvider.java:386)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.initialize(MinecraftGameProvider.java:357)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:140)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+
+2025-05-04T01:05:14.967965036Z main ERROR Unable to invoke factory method in class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender for element RollingRandomAccessFile: java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender java.lang.IllegalStateException: No factory method found for class org.apache.logging.log4j.core.appender.RollingRandomAccessFileAppender
+	at knot//org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.findFactoryMethod(PluginBuilder.java:268)
+	at knot//org.apache.logging.log4j.core.config.plugins.util.PluginBuilder.build(PluginBuilder.java:140)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createPluginObject(AbstractConfiguration.java:1180)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1099)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.createConfiguration(AbstractConfiguration.java:1091)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.doConfigure(AbstractConfiguration.java:695)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.initialize(AbstractConfiguration.java:270)
+	at knot//org.apache.logging.log4j.core.config.AbstractConfiguration.start(AbstractConfiguration.java:319)
+	at knot//org.apache.logging.log4j.core.LoggerContext.setConfiguration(LoggerContext.java:639)
+	at knot//org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:728)
+	at knot//org.apache.logging.log4j.core.LoggerContext.reconfigure(LoggerContext.java:750)
+	at knot//org.apache.logging.log4j.core.LoggerContext.start(LoggerContext.java:263)
+	at knot//org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:257)
+	at knot//org.apache.logging.log4j.core.impl.Log4jContextFactory.getContext(Log4jContextFactory.java:46)
+	at knot//org.apache.logging.log4j.LogManager.getContext(LogManager.java:118)
+	at knot//org.apache.logging.log4j.LogManager.getLogger(LogManager.java:622)
+	at knot//net.fabricmc.loader.impl.game.minecraft.Log4jLogHandler.getLogger(Log4jLogHandler.java:58)
+	at knot//net.fabricmc.loader.impl.game.minecraft.Log4jLogHandler.log(Log4jLogHandler.java:51)
+	at net.fabricmc.loader.impl.util.log.BuiltinLogHandler.replay(BuiltinLogHandler.java:128)
+	at net.fabricmc.loader.impl.util.log.Log.init(Log.java:34)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.setupLogHandler(MinecraftGameProvider.java:386)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.initialize(MinecraftGameProvider.java:357)
+	at net.fabricmc.loader.impl.launch.knot.Knot.init(Knot.java:140)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:68)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+
+2025-05-04T01:05:14.972165471Z main ERROR Null object returned for RollingRandomAccessFile in Appenders.
+2025-05-04T01:05:14.980200795Z main ERROR Unable to locate appender "File" for logger config "root"
+[01:05:14] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[01:05:15] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[01:05:15] [main/INFO]: Loading 163 mods:
+	- appleskin 3.0.6+mc1.21.5
+	- architectury 16.1.4
+	- balm 21.5.14
+	   \-- kuma_api 21.5.2
+	- cardinal-components 6.3.1
+	   |-- cardinal-components-base 6.3.1
+	   |-- cardinal-components-block 6.3.1
+	   |-- cardinal-components-chunk 6.3.1
+	   |-- cardinal-components-entity 6.3.1
+	   |-- cardinal-components-item 6.3.1
+	   |-- cardinal-components-level 6.3.1
+	   |-- cardinal-components-scoreboard 6.3.1
+	   \-- cardinal-components-world 6.3.1
+	- cloth-config 18.0.145
+	   \-- cloth-basic-math 0.6.1
+	- clumps 23.0.0.1
+	- collective 8.3
+	- cristellib 2.0.2
+	   \-- blue_endless_jankson 1.2.3
+	- doubledoors 7.0
+	- durabilitytooltip 1.1.5
+	- e4mc_minecraft 5.3.1
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- entityculling 1.7.4
+	- fabric-api 0.121.0+1.21.5
+	   |-- fabric-api-base 0.4.62+73a52b4b49
+	   |-- fabric-api-lookup-api-v1 1.6.95+86c3a9f149
+	   |-- fabric-biome-api-v1 16.0.7+2dd063df49
+	   |-- fabric-block-api-v1 1.0.37+86c3a9f149
+	   |-- fabric-block-view-api-v2 1.0.26+aa6d566c49
+	   |-- fabric-blockrenderlayer-v1 2.0.16+86c3a9f149
+	   |-- fabric-client-tags-api-v1 1.1.37+86c3a9f149
+	   |-- fabric-command-api-v1 1.2.70+f71b366f49
+	   |-- fabric-command-api-v2 2.2.49+73a52b4b49
+	   |-- fabric-commands-v0 0.2.87+df3654b349
+	   |-- fabric-content-registries-v0 10.0.12+3e6c1f7d49
+	   |-- fabric-convention-tags-v1 2.1.29+7f945d5b49
+	   |-- fabric-convention-tags-v2 2.14.3+fca633a049
+	   |-- fabric-crash-report-info-v1 0.3.12+86c3a9f149
+	   |-- fabric-data-attachment-api-v1 1.7.0+9c0dd47249
+	   |-- fabric-data-generation-api-v1 22.3.4+fd2b524049
+	   |-- fabric-dimensions-v1 4.0.17+3e6c1f7d49
+	   |-- fabric-entity-events-v1 2.0.25+27c1078f49
+	   |-- fabric-events-interaction-v0 4.0.13+73a52b4b49
+	   |-- fabric-game-rule-api-v1 1.0.70+c327076a49
+	   |-- fabric-item-api-v1 11.3.2+2ccdb6ef49
+	   |-- fabric-item-group-api-v1 4.2.8+3459fc6149
+	   |-- fabric-key-binding-api-v1 1.0.63+ecf51cdc49
+	   |-- fabric-keybindings-v0 0.2.61+df3654b349
+	   |-- fabric-lifecycle-events-v1 2.5.13+5cbce67349
+	   |-- fabric-loot-api-v2 3.0.47+3f89f5a549
+	   |-- fabric-loot-api-v3 1.0.35+86c3a9f149
+	   |-- fabric-message-api-v1 6.0.33+86c3a9f149
+	   |-- fabric-model-loading-api-v1 5.2.0+c982b95149
+	   |-- fabric-networking-api-v1 4.4.0+f3ffa98949
+	   |-- fabric-object-builder-api-v1 21.0.0+7b20cbb049
+	   |-- fabric-particles-v1 4.1.1+112e550e49
+	   |-- fabric-recipe-api-v1 8.1.6+052a85d049
+	   |-- fabric-registry-sync-v0 6.1.20+b556383249
+	   |-- fabric-renderer-api-v1 6.0.2+c982b95149
+	   |-- fabric-renderer-indigo 3.0.3+3e6c1f7d49
+	   |-- fabric-rendering-data-attachment-v1 0.3.64+73761d2e49
+	   |-- fabric-rendering-fluids-v1 3.1.27+86c3a9f149
+	   |-- fabric-rendering-v1 11.1.11+081cc04349
+	   |-- fabric-resource-conditions-api-v1 5.0.21+73a52b4b49
+	   |-- fabric-resource-loader-v0 3.1.6+02ca679649
+	   |-- fabric-screen-api-v1 2.0.46+86c3a9f149
+	   |-- fabric-screen-handler-api-v1 1.3.127+c327076a49
+	   |-- fabric-sound-api-v1 1.0.38+86c3a9f149
+	   |-- fabric-tag-api-v1 1.0.16+ecf51cdc49
+	   |-- fabric-transfer-api-v1 5.4.23+7b20cbb049
+	   \-- fabric-transitive-access-wideners-v1 6.3.17+f17a180c49
+	- fabric-language-kotlin 1.13.2+kotlin.2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.1.20
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.1.20
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.27.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.1
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.0
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- ferritecore 8.0.0
+	- forgeconfigapiport 21.5.1
+	   |-- com_electronwill_night-config_core 3.8.1
+	   \-- com_electronwill_night-config_toml 3.8.1
+	- formations 1.0.3
+	- formationsnether 1.0.5
+	- formationsoverworld 1.0.4
+	- friendsandfoes 4.0.1
+	- geophilic 3.4.1
+	- hearths 1.0.3
+	- hopobettermineshaft 1.3.1
+	- hopobetterruinedportal 1.4.6
+	- hopobetterunderwaterruins 1.2.3
+	- incendium 5.4.6
+	- inventoryessentials 21.5.1
+	- inventorytotem 3.4
+	- jade 18.1.0+fabric
+	- java 21
+	- krypton 0.2.9
+	   \-- com_velocitypowered_velocity-native 3.4.0-SNAPSHOT
+	- lithium 0.16.2+mc1.21.5
+	- mcwfences 1.2.0
+	- mcwpaintings 1.0.5
+	- mcwstairs 1.0.1
+	- mcwtrpdoors 1.0.0
+	- mes 1.4.3-1.21.5-fabric
+	- minecraft 1.21.5
+	- mr_dungeons 1.9.0b
+	- mr_dungeons_andtaverns 1-v4.7
+	- mr_ketkets_furnicraft 5.2
+	- mr_mine_treasure 1.5.4
+	- mr_serversleep 1-datapack2
+	- mr_true_ending 1-v1.1.4a
+	- my-totem-doll 2.1.4+1.21.5
+	   \-- mixinsquared 0.2.0
+	- nullscape 1.2.11
+	- passiveshield 3.7
+	- placeholder-api 2.6.2+1.21.5
+	- puzzleslib 21.5.9
+	- resourcefullib 3.5.0
+	   |-- com_teamresourceful_bytecodecs 1.1.3
+	   \-- com_teamresourceful_yabn 1.0.3
+	- roughlyenoughitems 19.0.806
+	   \-- error_notifier 1.0.11
+	- skinshuffle 2.8.2+1.21.5
+	   |-- com_drewnoakes_metadata-extractor 2.19.0
+	   |-- com_konghq_unirest-java_standalone 3.11.9
+	   |-- commons-validator_commons-validator 1.7
+	   |-- org_jsoup_jsoup 1.16.1
+	   \-- spruceui 7.0.0+1.21.5
+	- spellbound_weapons_mr 4.1.3
+	- structory_towers 1.0.11
+	- supermartijn642configlib 1.1.8
+	- t_and_t 1.13.5
+	- trashslot 21.5.1
+	- travelersbackpack 10.5.1
+	- treeharvester 9.1
+	- universal-graves 3.7.1+1.21.5
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.3.3
+	   |-- polymer-core 0.12.1+1.21.5-rc2
+	   |    |-- polymer-networking 0.12.1+1.21.5-rc2
+	   |    |    \-- polymer-common 0.12.1+1.21.5-rc2
+	   |    |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |    \-- polymer-registry-sync-manipulator 0.12.1+1.21.5-rc2
+	   |-- polymer-resource-pack 0.12.1+1.21.5-rc2
+	   |    \-- polymer-common 0.12.1+1.21.5-rc2
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- polymer-virtual-entity 0.12.1+1.21.5-rc2
+	   |    \-- polymer-common 0.12.1+1.21.5-rc2
+	   |         \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   |-- predicate-api 0.6.0+1.21.2
+	   |-- server_translations_api 2.5.0+1.21.5-rc1
+	   |    \-- packet_tweaker 0.6.0-pre.1+1.21.2-pre3
+	   \-- sgui 1.9.0+1.21.5
+	- visualworkbench 21.5.0
+	- voicechat 1.21.5-2.5.30
+	   \-- fabric-key-binding-api-v1 1.0.63+ecf51cdc07
+	- waystones 21.5.4
+	- wilderwild 4.0.7-mc1.21.5
+	   \-- frozenlib 2.1-mc1.21.5
+	- xaerominimap 25.2.5
+	- xaeroworldmap 1.39.8
+	- yet_another_config_lib_v3 3.6.6+1.21.5-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+[01:05:15] [main/WARN]: Found 1 non-fabric mod:
+	- NametagEdit.jar
+[01:05:15] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[01:05:15] [main/INFO]: Compatibility level set to JAVA_21
+[01:05:15] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:15] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:15] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:15] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:15] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[01:05:15] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
+[01:05:16] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:16] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:16] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:16] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[01:05:16] [main/INFO]: Loading config WWMixinsConfig from wilderwild
+[01:05:16] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[01:05:16] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[01:05:16] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[01:05:17] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[01:05:17] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[01:05:21] [main/INFO]: Loading config WWBlockConfig from wilderwild
+[01:05:21] [main/INFO]: Saving config WWBlockConfig from wilderwild
+^[[A^[[A^[[A^[[A^[[B^[[B^[[B[01:05:25] [main/INFO]: Loading config WWEntityConfig from wilderwild
+^[[B[01:05:25] [main/INFO]: Saving config WWEntityConfig from wilderwild
+^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B[01:05:28] [main/INFO]: Loading Collective version 8.3.
+[01:05:29] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[01:05:29] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformCompat@3257e1fc for service interface com.faboslav.friendsandfoes.common.platform.PlatformCompat
+[01:05:29] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformHelper@645d0f42 for service interface com.faboslav.friendsandfoes.common.platform.PlatformHelper
+[01:05:29] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.ProcessorTypes@40697af9 for service interface com.faboslav.friendsandfoes.common.platform.ProcessorTypes
+[01:05:29] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.BiomeModifications@3aa9f6df for service interface com.faboslav.friendsandfoes.common.platform.BiomeModifications
+[01:05:29] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[01:05:29] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[01:05:29] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[01:05:30] [main/INFO]: My Totem Doll Initialized
+[01:05:30] [main/INFO]: Constructing common components for puzzleslib:main
+[01:05:30] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[01:05:30] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[01:05:30] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[01:05:30] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[01:05:30] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[01:05:30] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[01:05:30] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[01:05:30] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[01:05:30] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[01:05:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[01:05:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[01:05:31] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[01:05:31] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[01:05:31] [main/INFO]: Constructing common components for visualworkbench:main
+[01:05:31] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[01:05:31] [main/INFO]: [voicechat] Compatibility version 18
+[01:05:31] [main/INFO]: [voicechat] Loading plugins
+[01:05:31] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[01:05:31] [main/INFO]: [voicechat] Initializing plugins
+[01:05:31] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[01:05:31] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 4
+[01:05:31] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[01:05:31] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[01:05:31] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[01:05:31] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 3 Datafixer optimizations took 146 milliseconds
+[01:05:31] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
+[01:05:31] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
+[01:05:32] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 500 milliseconds
+[01:05:32] [main/INFO]: DataFixes for Wilder Wild have been applied
+[01:05:33] [main/INFO]: Adding Music And Ambience for wilderwild
+[01:05:33] [main/INFO]: Overriding Water Colors for wilderwild
+[01:05:33] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[01:05:33] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[01:05:33] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[01:05:33] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[01:05:33] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
+[01:05:33] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[01:05:33] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[01:05:33] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[01:05:33] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[01:05:33] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[01:05:33] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[01:05:33] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[01:05:33] [main/ERROR]: Failed to start the minecraft server
+net.minecraft.class_5125$class_5126: /workspaces/server-minecraft/./serverMundo/session.lock: already locked (possibly by other Minecraft instance?)
+	at knot/net.minecraft.class_5125$class_5126.method_26805(class_5125.java:95) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_5125.method_26803(class_5125.java:41) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.<init>(class_32.java:374) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_52236(class_32.java:353) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:139) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[B^[[A^[[A^[[A^[[A^[[A^[[A^[[B^[[B^[[B^[[B^[[B^[[B
