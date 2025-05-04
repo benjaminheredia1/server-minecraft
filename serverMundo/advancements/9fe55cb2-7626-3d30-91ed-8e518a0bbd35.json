@@ -9,27 +9,34 @@
     "criteria": {
       "minecraft:cold_ocean": "2025-04-25 14:43:02 +0000",
       "minecraft:snowy_slopes": "2025-04-30 22:21:19 +0000",
+      "minecraft:forest": "2025-04-25 12:59:28 +0000",
+      "minecraft:taiga": "2025-05-04 02:22:26 +0000",
+      "minecraft:deep_ocean": "2025-04-25 14:42:54 +0000",
+      "minecraft:lush_caves": "2025-04-25 11:37:40 +0000",
+      "minecraft:deep_cold_ocean": "2025-04-25 14:42:55 +0000",
+      "minecraft:ice_spikes": "2025-05-04 03:46:30 +0000",
+      "minecraft:frozen_ocean": "2025-05-04 02:51:45 +0000",
+      "minecraft:frozen_river": "2025-05-04 02:52:49 +0000",
+      "minecraft:jungle": "2025-04-25 12:59:02 +0000",
+      "minecraft:ocean": "2025-04-25 14:42:24 +0000",
+      "minecraft:birch_forest": "2025-04-25 12:13:36 +0000",
+      "minecraft:snowy_beach": "2025-05-04 02:51:51 +0000",
+      "minecraft:bamboo_jungle": "2025-04-25 12:15:00 +0000",
+      "minecraft:windswept_savanna": "2025-04-29 21:05:54 +0000",
+      "minecraft:deep_lukewarm_ocean": "2025-04-29 20:26:49 +0000",
       "minecraft:beach": "2025-04-25 14:43:35 +0000",
       "minecraft:dark_forest": "2025-04-25 11:31:08 +0000",
-      "minecraft:forest": "2025-04-25 12:59:28 +0000",
       "minecraft:sparse_jungle": "2025-04-25 12:58:36 +0000",
-      "minecraft:deep_ocean": "2025-04-25 14:42:54 +0000",
       "minecraft:river": "2025-04-25 11:35:43 +0000",
       "minecraft:lukewarm_ocean": "2025-04-29 20:26:57 +0000",
       "minecraft:stony_shore": "2025-04-25 14:42:22 +0000",
-      "minecraft:lush_caves": "2025-04-25 11:37:40 +0000",
+      "minecraft:snowy_plains": "2025-05-04 02:52:06 +0000",
       "minecraft:dripstone_caves": "2025-04-25 12:59:39 +0000",
-      "minecraft:deep_cold_ocean": "2025-04-25 14:42:55 +0000",
+      "minecraft:snowy_taiga": "2025-05-04 02:49:38 +0000",
       "minecraft:old_growth_birch_forest": "2025-04-25 12:11:53 +0000",
       "minecraft:deep_dark": "2025-04-29 13:27:49 +0000",
-      "minecraft:jungle": "2025-04-25 12:59:02 +0000",
-      "minecraft:ocean": "2025-04-25 14:42:24 +0000",
       "minecraft:meadow": "2025-04-29 20:44:36 +0000",
-      "minecraft:birch_forest": "2025-04-25 12:13:36 +0000",
-      "minecraft:bamboo_jungle": "2025-04-25 12:15:00 +0000",
-      "minecraft:windswept_savanna": "2025-04-29 21:05:54 +0000",
-      "minecraft:plains": "2025-04-25 14:43:46 +0000",
-      "minecraft:deep_lukewarm_ocean": "2025-04-29 20:26:49 +0000"
+      "minecraft:plains": "2025-04-25 14:43:46 +0000"
     },
     "done": false
   },
@@ -414,6 +421,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "cooked_porkchop": "2025-05-04 03:47:24 +0000",
       "bread": "2025-04-25 13:10:12 +0000",
       "golden_apple": "2025-05-02 13:33:18 +0000",
       "honey_bottle": "2025-04-29 20:02:28 +0000",
@@ -4002,6 +4010,7 @@
   "minecraft:husbandry/bred_all_animals": {
     "criteria": {
       "minecraft:cow": "2025-05-03 23:30:24 +0000",
+      "minecraft:wolf": "2025-05-04 02:43:25 +0000",
       "minecraft:sheep": "2025-05-03 23:30:23 +0000"
     },
     "done": false
@@ -4036,141 +4045,15 @@
     },
     "done": true
   },
-  "incendium:technical/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/sentrys_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/feed_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_player_hurt": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/inventory/firestorm": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/give_ghastling": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_kill": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/multiplex_crossbow": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_inventory_change": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/holy_wrath": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:technical/on_block": {
-    "criteria": {
-      "log_spam_fixer": "2025-05-04 00:49:15 +0000"
-    },
-    "done": false
-  },
-  "incendium:withered_forest/kill_spirit": {
-    "criteria": {
-      "requirement": "2025-05-04 00:13:52 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/magma_block": {
-    "criteria": {
-      "has_magma_cream": "2025-05-04 00:23:23 +0000"
-    },
-    "done": true
-  },
-  "mt:technical/armor/chest_durability": {
-    "criteria": {
-      "requirement": "2025-05-04 00:33:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/misc/gold_ingot_from_gold_block": {
     "criteria": {
       "has_gold_block": "2025-05-03 23:45:57 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
-    "criteria": {
-      "has_blackstone": "2025-05-04 00:11:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/explore_nether": {
-    "criteria": {
-      "minecraft:nether_wastes": "2025-05-04 00:28:34 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/misc/gold_nugget_from_smelting": {
     "criteria": {
       "has_golden_boots": "2025-05-03 23:46:34 +0000"
-    },
-    "done": true
-  },
-  "incendium:root": {
-    "criteria": {
-      "requirement": "2025-05-04 00:10:24 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
-    "criteria": {
-      "has_ancient_debris": "2025-05-04 00:20:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:story/enter_the_nether": {
-    "criteria": {
-      "entered_nether": "2025-05-04 00:10:24 +0000"
-    },
-    "done": true
-  },
-  "mt:technical/armor/boots_durability": {
-    "criteria": {
-      "requirement": "2025-05-04 00:39:32 +0000"
     },
     "done": true
   },
@@ -4180,9 +4063,33 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/blackstone_wall": {
+  "mcwstairs:recipes/diorite": {
     "criteria": {
-      "has_blackstone": "2025-05-04 00:11:42 +0000"
+      "has_planks": "2025-05-03 23:54:04 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_common_mountain_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-03 23:54:49 +0000"
+    },
+    "done": true
+  },
+  "incendium:root": {
+    "criteria": {
+      "requirement": "2025-05-04 00:10:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enter_the_nether": {
+    "criteria": {
+      "entered_nether": "2025-05-04 00:10:24 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/root": {
+    "criteria": {
+      "entered_nether": "2025-05-04 00:10:24 +0000"
     },
     "done": true
   },
@@ -4192,21 +4099,82 @@
     },
     "done": true
   },
-  "mt:treasure_advancements/first_common_default_treasure": {
+  "incendium:misc/root": {
     "criteria": {
-      "obtainchest": "2025-05-04 00:11:43 +0000"
+      "incendium:withered_forest": "2025-05-04 00:10:25 +0000"
     },
     "done": true
   },
-  "mt:treasure_advancements/10_common_treasure": {
+  "incendium:misc/soul_searcher": {
     "criteria": {
-      "obtainchest": "2025-05-04 00:19:49 +0000"
+      "incendium:toxic_heap": "2025-05-04 03:43:56 +0000",
+      "incendium:withered_forest": "2025-05-04 00:10:25 +0000"
+    },
+    "done": false
+  },
+  "mt:treasure_advancements/first_common_nether_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 00:11:27 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/misc/netherite_scrap": {
+  "wilderwild:recipes/redstone/geyser": {
     "criteria": {
-      "has_ancient_debris": "2025-05-04 00:20:02 +0000"
+      "has_magma_block": "2025-05-04 00:11:30 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/diorite": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/granite": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_block": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/daylight_detector": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/observer": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/comparator": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/quartz": {
+    "criteria": {
+      "has_quartz": "2025-05-04 00:11:32 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/polished_blackstone_brick_wall_from_blackstone_stonecutting": {
+    "criteria": {
+      "has_blackstone": "2025-05-04 00:11:42 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/blackstone_wall": {
+    "criteria": {
+      "has_blackstone": "2025-05-04 00:11:42 +0000"
     },
     "done": true
   },
@@ -4222,51 +4190,9 @@
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
-    "criteria": {
-      "has_porkchop": "2025-05-04 00:21:10 +0000"
-    },
-    "done": true
-  },
-  "spellbound_weapons:recipe/windsweeper": {
-    "criteria": {
-      "2": "2025-05-04 00:12:06 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/netherite_ingot": {
-    "criteria": {
-      "has_netherite_scrap": "2025-05-04 00:48:40 +0000"
-    },
-    "done": true
-  },
-  "nova_structures:nether/find_nether_skeleton": {
-    "criteria": {
-      "fortress": "2025-05-04 00:31:24 +0000"
-    },
-    "done": false
-  },
-  "minecraft:nether/obtain_ancient_debris": {
-    "criteria": {
-      "ancient_debris": "2025-05-04 00:20:02 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/diorite": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-04 00:11:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/granite": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
     },
     "done": true
   },
@@ -4276,57 +4202,15 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/quartz_block": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/chiseled_polished_blackstone_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-04 00:11:42 +0000"
     },
     "done": true
   },
-  "mt:treasure_advancements/first_rare_treasure": {
-    "criteria": {
-      "obtainchest": "2025-05-04 00:11:58 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/daylight_detector": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
-    },
-    "done": true
-  },
   "mcwstairs:recipes/blackstone": {
     "criteria": {
       "has_planks": "2025-05-04 00:11:42 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/observer": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/building_blocks/smooth_basalt": {
-    "criteria": {
-      "has_basalt": "2025-05-04 00:14:10 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/redstone/comparator": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
-    },
-    "done": true
-  },
-  "mt:technical/armor/legs_durability": {
-    "criteria": {
-      "requirement": "2025-05-04 00:39:32 +0000"
     },
     "done": true
   },
@@ -4348,57 +4232,15 @@
     },
     "done": true
   },
-  "mcwstairs:recipes/diorite": {
-    "criteria": {
-      "has_planks": "2025-05-03 23:54:04 +0000"
-    },
-    "done": true
-  },
-  "minecraft:nether/root": {
-    "criteria": {
-      "entered_nether": "2025-05-04 00:10:24 +0000"
-    },
-    "done": true
-  },
-  "wilderwild:recipes/redstone/geyser": {
-    "criteria": {
-      "has_magma_block": "2025-05-04 00:11:30 +0000"
-    },
-    "done": true
-  },
-  "incendium:misc/root": {
-    "criteria": {
-      "incendium:withered_forest": "2025-05-04 00:10:25 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/polished_blackstone": {
     "criteria": {
       "has_blackstone": "2025-05-04 00:11:42 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/quartz": {
-    "criteria": {
-      "has_quartz": "2025-05-04 00:11:32 +0000"
-    },
-    "done": true
-  },
-  "mt:technical/armor/helmet_durability": {
-    "criteria": {
-      "requirement": "2025-05-04 00:11:03 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/building_blocks/blackstone_slab": {
     "criteria": {
       "has_blackstone": "2025-05-04 00:11:42 +0000"
-    },
-    "done": true
-  },
-  "mt:treasure_advancements/first_common_mountain_treasure": {
-    "criteria": {
-      "obtainchest": "2025-05-03 23:54:49 +0000"
     },
     "done": true
   },
@@ -4414,27 +4256,27 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
-    "criteria": {
-      "has_basalt": "2025-05-04 00:14:10 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/blackstone_wall_from_blackstone_stonecutting": {
     "criteria": {
       "has_blackstone": "2025-05-04 00:11:42 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/magma_cube": {
+  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
     "criteria": {
-      "has_magma_cream": "2025-05-04 00:23:23 +0000"
+      "has_blackstone": "2025-05-04 00:11:42 +0000"
     },
     "done": true
   },
-  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+  "mt:treasure_advancements/first_common_default_treasure": {
     "criteria": {
-      "has_porkchop": "2025-05-04 00:21:10 +0000"
+      "obtainchest": "2025-05-04 00:11:43 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_rare_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 00:11:58 +0000"
     },
     "done": true
   },
@@ -4444,33 +4286,27 @@
     },
     "done": true
   },
-  "incendium:misc/soul_searcher": {
+  "spellbound_weapons:recipe/windsweeper": {
     "criteria": {
-      "incendium:withered_forest": "2025-05-04 00:10:25 +0000"
-    },
-    "done": false
-  },
-  "spellbound_weapons:crafted/moonlight_edge": {
-    "criteria": {
-      "requirement": "2025-05-04 00:38:23 +0000"
+      "2": "2025-05-04 00:12:06 +0000"
     },
     "done": true
   },
-  "mt:treasure_advancements/first_common_nether_treasure": {
+  "incendium:withered_forest/kill_spirit": {
     "criteria": {
-      "obtainchest": "2025-05-04 00:11:27 +0000"
+      "requirement": "2025-05-04 00:13:52 +0000"
     },
     "done": true
   },
-  "travelersbackpack:recipes/misc/pig": {
+  "minecraft:recipes/building_blocks/smooth_basalt": {
     "criteria": {
-      "has_porkchop": "2025-05-04 00:21:10 +0000"
+      "has_basalt": "2025-05-04 00:14:10 +0000"
     },
     "done": true
   },
-  "minecraft:nether/find_fortress": {
+  "minecraft:recipes/building_blocks/polished_basalt_from_basalt_stonecutting": {
     "criteria": {
-      "fortress": "2025-05-04 00:31:24 +0000"
+      "has_basalt": "2025-05-04 00:14:10 +0000"
     },
     "done": true
   },
@@ -4480,9 +4316,415 @@
     },
     "done": true
   },
-  "minecraft:recipes/building_blocks/blackstone_stairs_from_blackstone_stonecutting": {
+  "mt:treasure_advancements/10_common_treasure": {
     "criteria": {
-      "has_blackstone": "2025-05-04 00:11:42 +0000"
+      "obtainchest": "2025-05-04 00:19:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2025-05-04 00:20:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2025-05-04 00:20:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2025-05-04 00:20:02 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_campfire_cooking": {
+    "criteria": {
+      "has_porkchop": "2025-05-04 00:21:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_porkchop_from_smoking": {
+    "criteria": {
+      "has_porkchop": "2025-05-04 00:21:10 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/pig": {
+    "criteria": {
+      "has_porkchop": "2025-05-04 00:21:10 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/magma_block": {
+    "criteria": {
+      "has_magma_cream": "2025-05-04 00:23:23 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/misc/magma_cube": {
+    "criteria": {
+      "has_magma_cream": "2025-05-04 00:23:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/explore_nether": {
+    "criteria": {
+      "minecraft:crimson_forest": "2025-05-04 03:35:18 +0000",
+      "minecraft:nether_wastes": "2025-05-04 00:28:34 +0000",
+      "minecraft:soul_sand_valley": "2025-05-04 03:40:12 +0000"
+    },
+    "done": false
+  },
+  "nova_structures:nether/find_nether_skeleton": {
+    "criteria": {
+      "fortress": "2025-05-04 00:31:24 +0000"
+    },
+    "done": false
+  },
+  "minecraft:nether/find_fortress": {
+    "criteria": {
+      "fortress": "2025-05-04 00:31:24 +0000"
+    },
+    "done": true
+  },
+  "mt:technical/armor/chest_durability": {
+    "criteria": {
+      "requirement": "2025-05-04 00:33:15 +0000"
+    },
+    "done": true
+  },
+  "spellbound_weapons:crafted/moonlight_edge": {
+    "criteria": {
+      "requirement": "2025-05-04 00:38:23 +0000"
+    },
+    "done": true
+  },
+  "mt:technical/armor/legs_durability": {
+    "criteria": {
+      "requirement": "2025-05-04 03:20:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_ingot": {
+    "criteria": {
+      "has_netherite_scrap": "2025-05-04 00:48:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "nova_structures:adventure/find_shrine": {
+    "criteria": {
+      "shrine_combat": "2025-05-04 02:42:47 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_bed": {
+    "criteria": {
+      "has_gray_wool": "2025-05-04 03:06:49 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/inventory/sentrys_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2025-05-04 03:02:11 +0000",
+      "minecraft:pale": "2025-05-04 02:43:07 +0000",
+      "minecraft:ashen": "2025-05-04 02:56:06 +0000"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/fox": {
+    "criteria": {
+      "has_sweet_berries": "2025-05-04 02:42:55 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/feed_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/soul_lantern": {
+    "criteria": {
+      "has_soul_torch": "2025-05-04 03:40:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_bricks_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_rare_crimson_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 03:37:55 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_vines": {
+    "criteria": {
+      "has_waystone": "2025-05-04 03:48:05 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_player_hurt": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "mt:treasure_advancements/25_common_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 03:39:21 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2025-05-04 03:34:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "wilderwild:recipes/building_blocks/mossy_mud_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-04 03:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_carpet": {
+    "criteria": {
+      "has_gray_wool": "2025-05-04 03:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_button": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/stonecutter": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/stone_pressure_plate": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_rare_soulvalley_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 03:41:29 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_stone": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2025-05-04 03:34:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/raw_gold": {
+    "criteria": {
+      "has_raw_gold_block": "2025-05-04 03:25:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2025-05-04 03:34:36 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/inventory/firestorm": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "waystones:recipes/decorations/mossy_waystone_from_moss_blocks": {
+    "criteria": {
+      "has_waystone": "2025-05-04 03:48:05 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/give_ghastling": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/decorations/stone_brick_walls_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_kill": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/stone_brick_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/lava_bucket": {
+    "criteria": {
+      "lava_bucket": "2025-05-04 03:34:32 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_common_soulvalley_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 03:40:12 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_brick_stairs_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/tame_an_animal": {
+    "criteria": {
+      "tamed_animal": "2025-05-04 02:43:07 +0000"
+    },
+    "done": true
+  },
+  "incendium:toxic_heap/root": {
+    "criteria": {
+      "requirement": "2025-05-04 03:43:56 +0000"
+    },
+    "done": true
+  },
+  "mt:treasure_advancements/first_rare_nether_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 03:34:29 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/multiplex_crossbow": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "wilderwild:recipes/building_blocks/mossy_gabbro_bricks_from_moss_block": {
+    "criteria": {
+      "has_moss_block": "2025-05-04 03:11:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_slab_from_stone_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/on_inventory_change": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "mt:treasure_advancements/first_common_crimson_treasure": {
+    "criteria": {
+      "obtainchest": "2025-05-04 03:36:04 +0000"
+    },
+    "done": true
+  },
+  "travelersbackpack:recipes/decorations/gray_sleeping_bag": {
+    "criteria": {
+      "has_gray_wool": "2025-05-04 03:06:49 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_stone_bricks_stone_from_stonecutting": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/gray_banner": {
+    "criteria": {
+      "has_gray_wool": "2025-05-04 03:06:49 +0000"
+    },
+    "done": true
+  },
+  "incendium:technical/holy_wrath": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "incendium:technical/on_block": {
+    "criteria": {
+      "log_spam_fixer": "2025-05-04 03:53:06 +0000"
+    },
+    "done": false
+  },
+  "travelersbackpack:recipes/misc/nether": {
+    "criteria": {
+      "has_nether_wart": "2025-05-04 03:34:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/stone_stairs": {
+    "criteria": {
+      "has_stone": "2025-05-04 03:13:31 +0000"
     },
     "done": true
   },
