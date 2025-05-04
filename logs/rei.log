@@ -1,185 +1,684 @@
-[14:27:33] [main/INFO] ========================================
-[14:27:33] [main/INFO] Minecraft: 1.21.5
-[14:27:33] [main/INFO] Side: server
-[14:27:33] [main/INFO] Development: false
-[14:27:33] [main/INFO] Version: 19.0.806
-[14:27:33] [main/INFO] Loader:
-[14:27:33] [main/INFO] - Fabric: 0.16.14
-[14:27:33] [main/INFO] - Fabric API: 0.121.0+1.21.5
-[14:27:33] [main/INFO] Dependencies:
-[14:27:33] [main/INFO] - Cloth Config: 18.0.145
-[14:27:33] [main/INFO] - Architectury: 16.1.4
-[14:27:33] [main/INFO] Mixin: 0.8.7
-[14:27:33] [main/INFO] OS: Linux 6.8.0-1026-azure (amd64)
-[14:27:33] [main/INFO] Java: 21.0.6 (Microsoft)
-[14:27:33] [main/INFO] ========================================
-[14:27:33] [main/INFO] Mods:
-[14:27:33] [main/INFO] - appleskin: 3.0.6+mc1.21.5
-[14:27:33] [main/INFO] - architectury: 16.1.4
-[14:27:33] [main/INFO] - balm: 21.5.14
-[14:27:33] [main/INFO] - blue_endless_jankson: 1.2.3
-[14:27:33] [main/INFO] - cardinal-components: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-base: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-block: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-chunk: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-entity: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-item: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-level: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-scoreboard: 6.3.1
-[14:27:33] [main/INFO] - cardinal-components-world: 6.3.1
-[14:27:33] [main/INFO] - cloth-basic-math: 0.6.1
-[14:27:33] [main/INFO] - cloth-config: 18.0.145
-[14:27:33] [main/INFO] - cloth-config: 18.0.145
-[14:27:33] [main/INFO] - clumps: 23.0.0.1
-[14:27:33] [main/INFO] - collective: 8.3
-[14:27:33] [main/INFO] - com_drewnoakes_metadata-extractor: 2.19.0
-[14:27:33] [main/INFO] - com_electronwill_night-config_core: 3.8.1
-[14:27:33] [main/INFO] - com_electronwill_night-config_toml: 3.8.1
-[14:27:33] [main/INFO] - com_konghq_unirest-java_standalone: 3.11.9
-[14:27:33] [main/INFO] - com_teamresourceful_bytecodecs: 1.1.3
-[14:27:33] [main/INFO] - com_teamresourceful_yabn: 1.0.3
-[14:27:33] [main/INFO] - com_twelvemonkeys_common_common-image: 3.12.0
-[14:27:33] [main/INFO] - com_twelvemonkeys_common_common-io: 3.12.0
-[14:27:33] [main/INFO] - com_twelvemonkeys_common_common-lang: 3.12.0
-[14:27:33] [main/INFO] - com_twelvemonkeys_imageio_imageio-core: 3.12.0
-[14:27:33] [main/INFO] - com_twelvemonkeys_imageio_imageio-metadata: 3.12.0
-[14:27:33] [main/INFO] - com_twelvemonkeys_imageio_imageio-webp: 3.12.0
-[14:27:33] [main/INFO] - com_velocitypowered_velocity-native: 3.4.0-SNAPSHOT
-[14:27:33] [main/INFO] - common-protection-api: 1.0.0
-[14:27:33] [main/INFO] - commons-validator_commons-validator: 1.7
-[14:27:33] [main/INFO] - cristellib: 2.0.2
-[14:27:33] [main/INFO] - doubledoors: 7.0
-[14:27:33] [main/INFO] - durabilitytooltip: 1.1.5
-[14:27:33] [main/INFO] - e4mc_minecraft: 5.3.1
-[14:27:33] [main/INFO] - entityculling: 1.7.4
-[14:27:33] [main/INFO] - error_notifier: 1.0.11
-[14:27:33] [main/INFO] - fabric-api: 0.121.0+1.21.5
-[14:27:33] [main/INFO] - fabric-api: 0.121.0+1.21.5
-[14:27:33] [main/INFO] - fabric-api-base: 0.4.62+73a52b4b49
-[14:27:33] [main/INFO] - fabric-api-lookup-api-v1: 1.6.95+86c3a9f149
-[14:27:33] [main/INFO] - fabric-biome-api-v1: 16.0.7+2dd063df49
-[14:27:33] [main/INFO] - fabric-block-api-v1: 1.0.37+86c3a9f149
-[14:27:33] [main/INFO] - fabric-block-view-api-v2: 1.0.26+aa6d566c49
-[14:27:33] [main/INFO] - fabric-command-api-v1: 1.2.70+f71b366f49
-[14:27:33] [main/INFO] - fabric-command-api-v2: 2.2.49+73a52b4b49
-[14:27:33] [main/INFO] - fabric-commands-v0: 0.2.87+df3654b349
-[14:27:33] [main/INFO] - fabric-content-registries-v0: 10.0.12+3e6c1f7d49
-[14:27:33] [main/INFO] - fabric-convention-tags-v1: 2.1.29+7f945d5b49
-[14:27:33] [main/INFO] - fabric-convention-tags-v2: 2.14.3+fca633a049
-[14:27:33] [main/INFO] - fabric-crash-report-info-v1: 0.3.12+86c3a9f149
-[14:27:33] [main/INFO] - fabric-data-attachment-api-v1: 1.7.0+9c0dd47249
-[14:27:33] [main/INFO] - fabric-data-generation-api-v1: 22.3.4+fd2b524049
-[14:27:33] [main/INFO] - fabric-dimensions-v1: 4.0.17+3e6c1f7d49
-[14:27:33] [main/INFO] - fabric-entity-events-v1: 2.0.25+27c1078f49
-[14:27:33] [main/INFO] - fabric-events-interaction-v0: 4.0.13+73a52b4b49
-[14:27:33] [main/INFO] - fabric-game-rule-api-v1: 1.0.70+c327076a49
-[14:27:33] [main/INFO] - fabric-item-api-v1: 11.3.2+2ccdb6ef49
-[14:27:33] [main/INFO] - fabric-item-group-api-v1: 4.2.8+3459fc6149
-[14:27:33] [main/INFO] - fabric-language-kotlin: 1.13.2+kotlin.2.1.20
-[14:27:33] [main/INFO] - fabric-lifecycle-events-v1: 2.5.13+5cbce67349
-[14:27:33] [main/INFO] - fabric-loot-api-v2: 3.0.47+3f89f5a549
-[14:27:33] [main/INFO] - fabric-loot-api-v3: 1.0.35+86c3a9f149
-[14:27:33] [main/INFO] - fabric-message-api-v1: 6.0.33+86c3a9f149
-[14:27:33] [main/INFO] - fabric-networking-api-v1: 4.4.0+f3ffa98949
-[14:27:33] [main/INFO] - fabric-object-builder-api-v1: 21.0.0+7b20cbb049
-[14:27:33] [main/INFO] - fabric-particles-v1: 4.1.1+112e550e49
-[14:27:33] [main/INFO] - fabric-permissions-api-v0: 0.3.3
-[14:27:33] [main/INFO] - fabric-recipe-api-v1: 8.1.6+052a85d049
-[14:27:33] [main/INFO] - fabric-registry-sync-v0: 6.1.20+b556383249
-[14:27:33] [main/INFO] - fabric-rendering-data-attachment-v1: 0.3.64+73761d2e49
-[14:27:33] [main/INFO] - fabric-rendering-fluids-v1: 3.1.27+86c3a9f149
-[14:27:33] [main/INFO] - fabric-resource-conditions-api-v1: 5.0.21+73a52b4b49
-[14:27:33] [main/INFO] - fabric-resource-loader-v0: 3.1.6+02ca679649
-[14:27:33] [main/INFO] - fabric-screen-handler-api-v1: 1.3.127+c327076a49
-[14:27:33] [main/INFO] - fabric-tag-api-v1: 1.0.16+ecf51cdc49
-[14:27:33] [main/INFO] - fabric-transfer-api-v1: 5.4.23+7b20cbb049
-[14:27:33] [main/INFO] - fabric-transitive-access-wideners-v1: 6.3.17+f17a180c49
-[14:27:33] [main/INFO] - fabricloader: 0.16.14
-[14:27:33] [main/INFO] - ferritecore: 8.0.0
-[14:27:33] [main/INFO] - folk_sisby_kaleido-config: 0.3.1+1.3.1
-[14:27:33] [main/INFO] - forgeconfigapiport: 21.5.1
-[14:27:33] [main/INFO] - formations: 1.0.3
-[14:27:33] [main/INFO] - formationsnether: 1.0.5
-[14:27:33] [main/INFO] - formationsoverworld: 1.0.4
-[14:27:33] [main/INFO] - friendsandfoes: 4.0.1
-[14:27:33] [main/INFO] - frozenlib: 2.1-mc1.21.5
-[14:27:33] [main/INFO] - geophilic: 3.4.1
-[14:27:33] [main/INFO] - hearths: 1.0.3
-[14:27:33] [main/INFO] - hopobettermineshaft: 1.3.1
-[14:27:33] [main/INFO] - hopobetterruinedportal: 1.4.6
-[14:27:33] [main/INFO] - hopobetterunderwaterruins: 1.2.3
-[14:27:33] [main/INFO] - incendium: 5.4.6
-[14:27:33] [main/INFO] - inventoryessentials: 21.5.1
-[14:27:33] [main/INFO] - inventorytotem: 3.4
-[14:27:33] [main/INFO] - jade: 18.1.0+fabric
-[14:27:33] [main/INFO] - java: 21
-[14:27:33] [main/INFO] - krypton: 0.2.9
-[14:27:33] [main/INFO] - kuma_api: 21.5.2
-[14:27:33] [main/INFO] - lithium: 0.16.2+mc1.21.5
-[14:27:33] [main/INFO] - mcwfences: 1.2.0
-[14:27:33] [main/INFO] - mcwpaintings: 1.0.5
-[14:27:33] [main/INFO] - mcwstairs: 1.0.1
-[14:27:33] [main/INFO] - mcwtrpdoors: 1.0.0
-[14:27:33] [main/INFO] - mes: 1.4.3-1.21.5-fabric
-[14:27:33] [main/INFO] - minecraft: 1.21.5
-[14:27:33] [main/INFO] - mixinextras: 0.4.1
-[14:27:33] [main/INFO] - mixinsquared: 0.2.0
-[14:27:33] [main/INFO] - mr_dungeons: 1.9.0b
-[14:27:33] [main/INFO] - mr_dungeons_andtaverns: 1-v4.7
-[14:27:33] [main/INFO] - mr_ketkets_furnicraft: 5.2
-[14:27:33] [main/INFO] - mr_mine_treasure: 1.5.4
-[14:27:33] [main/INFO] - mr_serversleep: 1-datapack2
-[14:27:33] [main/INFO] - mr_true_ending: 1-v1.1.4a
-[14:27:33] [main/INFO] - my-totem-doll: 2.1.4+1.21.5
-[14:27:33] [main/INFO] - nullscape: 1.2.11
-[14:27:33] [main/INFO] - org_jetbrains_kotlin_kotlin-reflect: 2.1.20
-[14:27:33] [main/INFO] - org_jetbrains_kotlin_kotlin-stdlib: 2.1.20
-[14:27:33] [main/INFO] - org_jetbrains_kotlin_kotlin-stdlib-jdk7: 2.1.20
-[14:27:33] [main/INFO] - org_jetbrains_kotlin_kotlin-stdlib-jdk8: 2.1.20
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_atomicfu-jvm: 0.27.0
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: 1.10.1
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: 1.10.1
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-datetime-jvm: 0.6.2
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: 0.7.0
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-io-core-jvm: 0.7.0
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: 1.8.0
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: 1.8.0
-[14:27:33] [main/INFO] - org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: 1.8.0
-[14:27:33] [main/INFO] - org_jsoup_jsoup: 1.16.1
-[14:27:33] [main/INFO] - org_quiltmc_parsers_gson: 0.2.1
-[14:27:33] [main/INFO] - org_quiltmc_parsers_json: 0.2.1
-[14:27:33] [main/INFO] - packet_tweaker: 0.6.0-pre.1+1.21.2-pre3
-[14:27:33] [main/INFO] - passiveshield: 3.7
-[14:27:33] [main/INFO] - placeholder-api: 2.6.2+1.21.5
-[14:27:33] [main/INFO] - polymer-common: 0.12.1+1.21.5-rc2
-[14:27:33] [main/INFO] - polymer-core: 0.12.1+1.21.5-rc2
-[14:27:33] [main/INFO] - polymer-networking: 0.12.1+1.21.5-rc2
-[14:27:33] [main/INFO] - polymer-registry-sync-manipulator: 0.12.1+1.21.5-rc2
-[14:27:33] [main/INFO] - polymer-resource-pack: 0.12.1+1.21.5-rc2
-[14:27:33] [main/INFO] - polymer-virtual-entity: 0.12.1+1.21.5-rc2
-[14:27:33] [main/INFO] - predicate-api: 0.6.0+1.21.2
-[14:27:33] [main/INFO] - puzzleslib: 21.5.9
-[14:27:33] [main/INFO] - resourcefullib: 3.5.0
-[14:27:33] [main/INFO] - roughlyenoughitems: 19.0.806
-[14:27:33] [main/INFO] - server_translations_api: 2.5.0+1.21.5-rc1
-[14:27:33] [main/INFO] - sgui: 1.9.0+1.21.5
-[14:27:33] [main/INFO] - skinshuffle: 2.8.2+1.21.5
-[14:27:33] [main/INFO] - spellbound_weapons_mr: 4.1.3
-[14:27:33] [main/INFO] - structory_towers: 1.0.11
-[14:27:33] [main/INFO] - supermartijn642configlib: 1.1.8
-[14:27:33] [main/INFO] - t_and_t: 1.13.5
-[14:27:33] [main/INFO] - trashslot: 21.5.1
-[14:27:33] [main/INFO] - travelersbackpack: 10.5.1
-[14:27:33] [main/INFO] - treeharvester: 9.1
-[14:27:33] [main/INFO] - universal-graves: 3.7.1+1.21.5
-[14:27:33] [main/INFO] - visualworkbench: 21.5.0
-[14:27:33] [main/INFO] - voicechat: 1.21.5-2.5.30
-[14:27:33] [main/INFO] - waystones: 21.5.4
-[14:27:33] [main/INFO] - wilderwild: 4.0.7-mc1.21.5
-[14:27:33] [main/INFO] - xaerominimap: 25.2.5
-[14:27:33] [main/INFO] - xaeroworldmap: 1.39.8
-[14:27:33] [main/INFO] - yet_another_config_lib_v3: 3.6.6+1.21.5-fabric
-[14:27:33] [main/INFO] ========================================
-[14:27:33] [main/INFO] [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[14:27:33] [main/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[14:27:33] [main/INFO] [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[18:43:11] [main/INFO] ========================================
+[18:43:11] [main/INFO] Minecraft: 1.21.5
+[18:43:11] [main/INFO] Side: server
+[18:43:11] [main/INFO] Development: false
+[18:43:11] [main/INFO] Version: 19.0.806
+[18:43:11] [main/INFO] Loader:
+[18:43:11] [main/INFO] - Fabric: 0.16.14
+[18:43:11] [main/INFO] - Fabric API: 0.121.0+1.21.5
+[18:43:11] [main/INFO] Dependencies:
+[18:43:11] [main/INFO] - Cloth Config: 18.0.145
+[18:43:11] [main/INFO] - Architectury: 16.1.4
+[18:43:11] [main/INFO] Mixin: 0.8.7
+[18:43:11] [main/INFO] OS: Linux 6.8.0-1026-azure (amd64)
+[18:43:11] [main/INFO] Java: 21.0.6 (Microsoft)
+[18:43:11] [main/INFO] ========================================
+[18:43:11] [main/INFO] Mods:
+[18:43:11] [main/INFO] - appleskin: 3.0.6+mc1.21.5
+[18:43:11] [main/INFO] - architectury: 16.1.4
+[18:43:11] [main/INFO] - balm: 21.5.14
+[18:43:11] [main/INFO] - blue_endless_jankson: 1.2.3
+[18:43:11] [main/INFO] - cardinal-components: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-base: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-block: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-chunk: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-entity: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-item: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-level: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-scoreboard: 6.3.1
+[18:43:11] [main/INFO] - cardinal-components-world: 6.3.1
+[18:43:11] [main/INFO] - cloth-basic-math: 0.6.1
+[18:43:11] [main/INFO] - cloth-config: 18.0.145
+[18:43:11] [main/INFO] - cloth-config: 18.0.145
+[18:43:11] [main/INFO] - clumps: 23.0.0.1
+[18:43:11] [main/INFO] - collective: 8.3
+[18:43:11] [main/INFO] - com_drewnoakes_metadata-extractor: 2.19.0
+[18:43:11] [main/INFO] - com_electronwill_night-config_core: 3.8.1
+[18:43:11] [main/INFO] - com_electronwill_night-config_toml: 3.8.1
+[18:43:11] [main/INFO] - com_konghq_unirest-java_standalone: 3.11.9
+[18:43:11] [main/INFO] - com_teamresourceful_bytecodecs: 1.1.3
+[18:43:11] [main/INFO] - com_teamresourceful_yabn: 1.0.3
+[18:43:11] [main/INFO] - com_twelvemonkeys_common_common-image: 3.12.0
+[18:43:11] [main/INFO] - com_twelvemonkeys_common_common-io: 3.12.0
+[18:43:11] [main/INFO] - com_twelvemonkeys_common_common-lang: 3.12.0
+[18:43:11] [main/INFO] - com_twelvemonkeys_imageio_imageio-core: 3.12.0
+[18:43:11] [main/INFO] - com_twelvemonkeys_imageio_imageio-metadata: 3.12.0
+[18:43:11] [main/INFO] - com_twelvemonkeys_imageio_imageio-webp: 3.12.0
+[18:43:11] [main/INFO] - com_velocitypowered_velocity-native: 3.4.0-SNAPSHOT
+[18:43:11] [main/INFO] - common-protection-api: 1.0.0
+[18:43:11] [main/INFO] - commons-validator_commons-validator: 1.7
+[18:43:11] [main/INFO] - cristellib: 2.0.2
+[18:43:11] [main/INFO] - doubledoors: 7.0
+[18:43:11] [main/INFO] - durabilitytooltip: 1.1.5
+[18:43:11] [main/INFO] - e4mc_minecraft: 5.3.1
+[18:43:11] [main/INFO] - entityculling: 1.7.4
+[18:43:11] [main/INFO] - error_notifier: 1.0.11
+[18:43:11] [main/INFO] - fabric-api: 0.121.0+1.21.5
+[18:43:11] [main/INFO] - fabric-api: 0.121.0+1.21.5
+[18:43:11] [main/INFO] - fabric-api-base: 0.4.62+73a52b4b49
+[18:43:11] [main/INFO] - fabric-api-lookup-api-v1: 1.6.95+86c3a9f149
+[18:43:11] [main/INFO] - fabric-biome-api-v1: 16.0.7+2dd063df49
+[18:43:11] [main/INFO] - fabric-block-api-v1: 1.0.37+86c3a9f149
+[18:43:11] [main/INFO] - fabric-block-view-api-v2: 1.0.26+aa6d566c49
+[18:43:11] [main/INFO] - fabric-command-api-v1: 1.2.70+f71b366f49
+[18:43:11] [main/INFO] - fabric-command-api-v2: 2.2.49+73a52b4b49
+[18:43:11] [main/INFO] - fabric-commands-v0: 0.2.87+df3654b349
+[18:43:11] [main/INFO] - fabric-content-registries-v0: 10.0.12+3e6c1f7d49
+[18:43:11] [main/INFO] - fabric-convention-tags-v1: 2.1.29+7f945d5b49
+[18:43:11] [main/INFO] - fabric-convention-tags-v2: 2.14.3+fca633a049
+[18:43:11] [main/INFO] - fabric-crash-report-info-v1: 0.3.12+86c3a9f149
+[18:43:11] [main/INFO] - fabric-data-attachment-api-v1: 1.7.0+9c0dd47249
+[18:43:11] [main/INFO] - fabric-data-generation-api-v1: 22.3.4+fd2b524049
+[18:43:11] [main/INFO] - fabric-dimensions-v1: 4.0.17+3e6c1f7d49
+[18:43:11] [main/INFO] - fabric-entity-events-v1: 2.0.25+27c1078f49
+[18:43:11] [main/INFO] - fabric-events-interaction-v0: 4.0.13+73a52b4b49
+[18:43:11] [main/INFO] - fabric-game-rule-api-v1: 1.0.70+c327076a49
+[18:43:11] [main/INFO] - fabric-item-api-v1: 11.3.2+2ccdb6ef49
+[18:43:11] [main/INFO] - fabric-item-group-api-v1: 4.2.8+3459fc6149
+[18:43:11] [main/INFO] - fabric-language-kotlin: 1.13.2+kotlin.2.1.20
+[18:43:11] [main/INFO] - fabric-lifecycle-events-v1: 2.5.13+5cbce67349
+[18:43:11] [main/INFO] - fabric-loot-api-v2: 3.0.47+3f89f5a549
+[18:43:11] [main/INFO] - fabric-loot-api-v3: 1.0.35+86c3a9f149
+[18:43:11] [main/INFO] - fabric-message-api-v1: 6.0.33+86c3a9f149
+[18:43:11] [main/INFO] - fabric-networking-api-v1: 4.4.0+f3ffa98949
+[18:43:11] [main/INFO] - fabric-object-builder-api-v1: 21.0.0+7b20cbb049
+[18:43:11] [main/INFO] - fabric-particles-v1: 4.1.1+112e550e49
+[18:43:11] [main/INFO] - fabric-permissions-api-v0: 0.3.3
+[18:43:11] [main/INFO] - fabric-recipe-api-v1: 8.1.6+052a85d049
+[18:43:11] [main/INFO] - fabric-registry-sync-v0: 6.1.20+b556383249
+[18:43:11] [main/INFO] - fabric-rendering-data-attachment-v1: 0.3.64+73761d2e49
+[18:43:11] [main/INFO] - fabric-rendering-fluids-v1: 3.1.27+86c3a9f149
+[18:43:11] [main/INFO] - fabric-resource-conditions-api-v1: 5.0.21+73a52b4b49
+[18:43:11] [main/INFO] - fabric-resource-loader-v0: 3.1.6+02ca679649
+[18:43:11] [main/INFO] - fabric-screen-handler-api-v1: 1.3.127+c327076a49
+[18:43:11] [main/INFO] - fabric-tag-api-v1: 1.0.16+ecf51cdc49
+[18:43:11] [main/INFO] - fabric-transfer-api-v1: 5.4.23+7b20cbb049
+[18:43:11] [main/INFO] - fabric-transitive-access-wideners-v1: 6.3.17+f17a180c49
+[18:43:11] [main/INFO] - fabricloader: 0.16.14
+[18:43:11] [main/INFO] - ferritecore: 8.0.0
+[18:43:11] [main/INFO] - folk_sisby_kaleido-config: 0.3.1+1.3.1
+[18:43:11] [main/INFO] - forgeconfigapiport: 21.5.1
+[18:43:11] [main/INFO] - formations: 1.0.3
+[18:43:11] [main/INFO] - formationsnether: 1.0.5
+[18:43:11] [main/INFO] - formationsoverworld: 1.0.4
+[18:43:11] [main/INFO] - friendsandfoes: 4.0.1
+[18:43:11] [main/INFO] - frozenlib: 2.1-mc1.21.5
+[18:43:11] [main/INFO] - geophilic: 3.4.1
+[18:43:11] [main/INFO] - hearths: 1.0.3
+[18:43:11] [main/INFO] - hopobettermineshaft: 1.3.1
+[18:43:11] [main/INFO] - hopobetterruinedportal: 1.4.6
+[18:43:11] [main/INFO] - hopobetterunderwaterruins: 1.2.3
+[18:43:11] [main/INFO] - incendium: 5.4.6
+[18:43:11] [main/INFO] - inventoryessentials: 21.5.1
+[18:43:11] [main/INFO] - inventorytotem: 3.4
+[18:43:11] [main/INFO] - jade: 18.1.0+fabric
+[18:43:11] [main/INFO] - java: 21
+[18:43:11] [main/INFO] - krypton: 0.2.9
+[18:43:11] [main/INFO] - kuma_api: 21.5.2
+[18:43:11] [main/INFO] - lithium: 0.16.2+mc1.21.5
+[18:43:11] [main/INFO] - mcwfences: 1.2.0
+[18:43:11] [main/INFO] - mcwpaintings: 1.0.5
+[18:43:11] [main/INFO] - mcwstairs: 1.0.1
+[18:43:11] [main/INFO] - mcwtrpdoors: 1.0.0
+[18:43:11] [main/INFO] - mes: 1.4.3-1.21.5-fabric
+[18:43:11] [main/INFO] - minecraft: 1.21.5
+[18:43:11] [main/INFO] - mixinextras: 0.4.1
+[18:43:11] [main/INFO] - mixinsquared: 0.2.0
+[18:43:11] [main/INFO] - mr_dungeons: 1.9.0b
+[18:43:11] [main/INFO] - mr_dungeons_andtaverns: 1-v4.7
+[18:43:11] [main/INFO] - mr_ketkets_furnicraft: 5.2
+[18:43:11] [main/INFO] - mr_mine_treasure: 1.5.4
+[18:43:11] [main/INFO] - mr_serversleep: 1-datapack2
+[18:43:11] [main/INFO] - mr_true_ending: 1-v1.1.4a
+[18:43:11] [main/INFO] - my-totem-doll: 2.1.4+1.21.5
+[18:43:11] [main/INFO] - nullscape: 1.2.11
+[18:43:11] [main/INFO] - org_jetbrains_kotlin_kotlin-reflect: 2.1.20
+[18:43:11] [main/INFO] - org_jetbrains_kotlin_kotlin-stdlib: 2.1.20
+[18:43:11] [main/INFO] - org_jetbrains_kotlin_kotlin-stdlib-jdk7: 2.1.20
+[18:43:11] [main/INFO] - org_jetbrains_kotlin_kotlin-stdlib-jdk8: 2.1.20
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_atomicfu-jvm: 0.27.0
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm: 1.10.1
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-coroutines-jdk8: 1.10.1
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-datetime-jvm: 0.6.2
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm: 0.7.0
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-io-core-jvm: 0.7.0
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm: 1.8.0
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-serialization-core-jvm: 1.8.0
+[18:43:11] [main/INFO] - org_jetbrains_kotlinx_kotlinx-serialization-json-jvm: 1.8.0
+[18:43:11] [main/INFO] - org_jsoup_jsoup: 1.16.1
+[18:43:11] [main/INFO] - org_quiltmc_parsers_gson: 0.2.1
+[18:43:11] [main/INFO] - org_quiltmc_parsers_json: 0.2.1
+[18:43:11] [main/INFO] - packet_tweaker: 0.6.0-pre.1+1.21.2-pre3
+[18:43:11] [main/INFO] - passiveshield: 3.7
+[18:43:11] [main/INFO] - placeholder-api: 2.6.2+1.21.5
+[18:43:11] [main/INFO] - polymer-common: 0.12.1+1.21.5-rc2
+[18:43:11] [main/INFO] - polymer-core: 0.12.1+1.21.5-rc2
+[18:43:11] [main/INFO] - polymer-networking: 0.12.1+1.21.5-rc2
+[18:43:11] [main/INFO] - polymer-registry-sync-manipulator: 0.12.1+1.21.5-rc2
+[18:43:11] [main/INFO] - polymer-resource-pack: 0.12.1+1.21.5-rc2
+[18:43:11] [main/INFO] - polymer-virtual-entity: 0.12.1+1.21.5-rc2
+[18:43:11] [main/INFO] - predicate-api: 0.6.0+1.21.2
+[18:43:11] [main/INFO] - puzzleslib: 21.5.9
+[18:43:11] [main/INFO] - resourcefullib: 3.5.0
+[18:43:11] [main/INFO] - roughlyenoughitems: 19.0.806
+[18:43:11] [main/INFO] - server_translations_api: 2.5.0+1.21.5-rc1
+[18:43:11] [main/INFO] - sgui: 1.9.0+1.21.5
+[18:43:11] [main/INFO] - skinshuffle: 2.8.2+1.21.5
+[18:43:11] [main/INFO] - spellbound_weapons_mr: 4.1.3
+[18:43:11] [main/INFO] - structory_towers: 1.0.11
+[18:43:11] [main/INFO] - supermartijn642configlib: 1.1.8
+[18:43:11] [main/INFO] - t_and_t: 1.13.5
+[18:43:11] [main/INFO] - trashslot: 21.5.1
+[18:43:11] [main/INFO] - travelersbackpack: 10.5.1
+[18:43:11] [main/INFO] - treeharvester: 9.1
+[18:43:11] [main/INFO] - universal-graves: 3.7.1+1.21.5
+[18:43:11] [main/INFO] - visualworkbench: 21.5.0
+[18:43:11] [main/INFO] - voicechat: 1.21.5-2.5.30
+[18:43:11] [main/INFO] - waystones: 21.5.4
+[18:43:11] [main/INFO] - wilderwild: 4.0.7-mc1.21.5
+[18:43:11] [main/INFO] - xaerominimap: 25.2.5
+[18:43:11] [main/INFO] - xaeroworldmap: 1.39.8
+[18:43:11] [main/INFO] - yet_another_config_lib_v3: 3.6.6+1.21.5-fabric
+[18:43:11] [main/INFO] ========================================
+[18:43:11] [main/INFO] [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[18:43:11] [main/INFO] [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[18:43:11] [main/INFO] [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[18:43:14] [main/DEBUG] [REI] Processed 111 tags in 1.428 ms for minecraft:entity_type
+[18:43:14] [main/DEBUG] [REI] Processed 8 tags in 142.7 μs for minecraft:game_event
+[18:43:14] [main/DEBUG] [REI] Processed 554 tags in 2.596 ms for minecraft:item
+[18:43:14] [main/DEBUG] [REI] Processed 5 tags in 33.84 μs for minecraft:point_of_interest_type
+[18:43:14] [main/DEBUG] [REI] Processed 644 tags in 2.831 ms for minecraft:block
+[18:43:14] [main/DEBUG] [REI] Processed 5 tags in 10.52 μs for minecraft:fluid
+[18:43:29] [Server thread/DEBUG] [REI] Starting Reload Plugins of stage null
+java.lang.Throwable
+	at knot//me.shedaniel.rei.impl.common.plugins.ReloadManagerImpl.reloadPlugins(ReloadManagerImpl.java:110)
+	at knot//me.shedaniel.rei.RoughlyEnoughItemsCore.lambda$onInitialize$5(RoughlyEnoughItemsCore.java:157)
+	at knot//dev.architectury.event.fabric.EventHandlerImpl.lambda$registerCommon$10(EventHandlerImpl.java:67)
+	at knot//net.fabricmc.fabric.api.event.lifecycle.v1.ServerLifecycleEvents.lambda$static$2(ServerLifecycleEvents.java:49)
+	at knot//net.minecraft.server.MinecraftServer.handler$zmk000$fabric-lifecycle-events-v1$afterSetupServer(MinecraftServer.java:4197)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:675)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:290)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin starting pre-reload for START.
+[18:43:29] [Server thread/DEBUG] [REI] Reloadables (8):
+[18:43:29] [Server thread/DEBUG] [REI]  - SlotAccessorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntryTypeRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntrySettingsAdapterRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ItemComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - DisplaySerializerRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ServerDisplayRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidSupportProviderImpl
+[18:43:29] [Server thread/DEBUG] [REI] Plugins (3):
+[18:43:29] [Server thread/DEBUG] [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:43:29] [Server thread/DEBUG] [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:43:29] [Server thread/DEBUG] [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 1.201 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 279.1 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 213.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-register/" done in 11.90 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/SlotAccessorRegistryImpl/" done in 461.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/EntryTypeRegistryImpl/" done in 235.1 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/EntrySettingsAdapterRegistryImpl/" done in 191.3 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/ItemComparatorRegistryImpl/" done in 120.5 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/FluidComparatorRegistryImpl/" done in 304.6 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/DisplaySerializerRegistryImpl/" done in 116.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/ServerDisplayRegistryImpl/" done in 40.51 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/FluidSupportProviderImpl/" done in 45.54 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "pre-stage/" done in 4.003 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin finished pre-reload for START in 16.59 ms.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/INFO] [REI] ########################################
+[18:43:29] [Server thread/INFO] [REI] REICommonPlugin starting main-reload for START.
+[18:43:29] [Server thread/DEBUG] [REI] Reloadables (8):
+[18:43:29] [Server thread/DEBUG] [REI]  - SlotAccessorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntryTypeRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntrySettingsAdapterRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ItemComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - DisplaySerializerRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ServerDisplayRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidSupportProviderImpl
+[18:43:29] [Server thread/INFO] [REI] Plugins (3):
+[18:43:29] [Server thread/INFO] [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:43:29] [Server thread/INFO] [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:43:29] [Server thread/INFO] [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:43:29] [Server thread/INFO] [REI] ########################################
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/SlotAccessorRegistryImpl/" done in 260.5 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 289.0 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 150.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 151.3 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 200.8 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 307.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/ServerDisplayRegistryImpl/" done in 128.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 337.4 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "start-reload/" done in 8.740 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin started main-reload for START.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 526.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/FabricFluidAPISupportPlugin/" done in 295.4 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 213.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/" done in 3.120 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 343.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 55.07 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 15.98 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 20.28 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 213.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 230.6 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 217.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 1.594 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 1.034 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 249.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 237.3 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 2.737 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 317.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 184.4 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 125.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 2.323 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:client/crafting/shaped] me.shedaniel.rei.api.common.display.DisplaySerializer$1@4d2b4832
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:client/crafting/shapeless] me.shedaniel.rei.api.common.display.DisplaySerializer$1@468d90de
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:client/smelting] me.shedaniel.rei.api.common.display.DisplaySerializer$1@55b93cea
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:client/smoking] me.shedaniel.rei.api.common.display.DisplaySerializer$1@7090a201
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:client/blasting] me.shedaniel.rei.api.common.display.DisplaySerializer$1@6f50c690
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/crafting/shaped] me.shedaniel.rei.api.common.display.DisplaySerializer$1@43775c96
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/crafting/shapeless] me.shedaniel.rei.api.common.display.DisplaySerializer$1@2c41c769
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/crafting/custom] me.shedaniel.rei.api.common.display.DisplaySerializer$1@7b2b4ffe
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/crafting/custom_shaped] me.shedaniel.rei.api.common.display.DisplaySerializer$1@585e1de3
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/crafting/custom_shapeless] me.shedaniel.rei.api.common.display.DisplaySerializer$1@40d26446
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:extension/crafting/map_extending] me.shedaniel.rei.api.common.display.DisplaySerializer$1@41c8c86c
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/smelting] me.shedaniel.rei.api.common.display.DisplaySerializer$1@3e4e8eca
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/smoking] me.shedaniel.rei.api.common.display.DisplaySerializer$1@733c5bc1
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/blasting] me.shedaniel.rei.api.common.display.DisplaySerializer$1@652fde79
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/campfire] me.shedaniel.rei.api.common.display.DisplaySerializer$1@1abc7bdd
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/stone_cutting] me.shedaniel.rei.api.common.display.DisplaySerializer$1@7c389f97
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/stripping] me.shedaniel.rei.api.common.display.DisplaySerializer$1@266020bf
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/brewing] me.shedaniel.rei.api.common.display.DisplaySerializer$1@4f0cbeac
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/composting] me.shedaniel.rei.api.common.display.DisplaySerializer$1@3ef48c1
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/fuel] me.shedaniel.rei.api.common.display.DisplaySerializer$1@db24af1
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/smithing] me.shedaniel.rei.api.common.display.DisplaySerializer$1@3423ab60
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/smithing/trimming] me.shedaniel.rei.api.common.display.DisplaySerializer$1@2c595e43
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/anvil] me.shedaniel.rei.api.common.display.DisplaySerializer$1@453ea1b6
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/beacon_base] me.shedaniel.rei.api.common.display.DisplaySerializer$1@553896cf
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/beacon_payment] me.shedaniel.rei.api.common.display.DisplaySerializer$1@272b0c86
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/tilling] me.shedaniel.rei.api.common.display.DisplaySerializer$1@6bb09977
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/pathing] me.shedaniel.rei.api.common.display.DisplaySerializer$1@4b210f39
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/waxing] me.shedaniel.rei.api.common.display.DisplaySerializer$1@69288e12
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/waxing_scraping] me.shedaniel.rei.api.common.display.DisplaySerializer$1@10f01c11
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/oxidizing] me.shedaniel.rei.api.common.display.DisplaySerializer$1@39a30a83
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [minecraft:default/oxidizing_scraping] me.shedaniel.rei.api.common.display.DisplaySerializer$1@666cf18f
+[18:43:29] [Server thread/DEBUG] [REI] Added display serializer [roughlyenoughitems:default/information] me.shedaniel.rei.api.common.display.DisplaySerializer$1@4189d280
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 40.41 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 66.53 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 67.90 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 41.88 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 56.12 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/FabricFluidAPISupportPlugin/" done in 53.70 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 50.71 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/" done in 607.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 332.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 181.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 98.53 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 1.024 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin ending main-reload for START.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/SlotAccessorRegistryImpl/" done in 70.96 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 52.05 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 127.5 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 43.96 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 42.05 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 42.76 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/ServerDisplayRegistryImpl/" done in 39.45 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 49.66 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "end-reload/" done in 1.334 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin ended main-reload for START in 95.63 ms.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin starting post-reload for START.
+[18:43:29] [Server thread/DEBUG] [REI] Reloadables (8):
+[18:43:29] [Server thread/DEBUG] [REI]  - SlotAccessorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntryTypeRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntrySettingsAdapterRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ItemComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - DisplaySerializerRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ServerDisplayRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidSupportProviderImpl
+[18:43:29] [Server thread/DEBUG] [REI] Plugins (3):
+[18:43:29] [Server thread/DEBUG] [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:43:29] [Server thread/DEBUG] [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:43:29] [Server thread/DEBUG] [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 197.3 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 41.16 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 40.57 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-register/" done in 763.1 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/SlotAccessorRegistryImpl/" done in 134.8 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/EntryTypeRegistryImpl/" done in 42.45 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/EntrySettingsAdapterRegistryImpl/" done in 44.92 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/ItemComparatorRegistryImpl/" done in 51.46 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/FluidComparatorRegistryImpl/" done in 41.38 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/DisplaySerializerRegistryImpl/" done in 56.54 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/ServerDisplayRegistryImpl/" done in 79.68 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/FluidSupportProviderImpl/" done in 43.42 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin START] Reloading Section: "post-stage/" done in 1.373 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/INFO] [REI] REICommonPlugin finished post-reload for START in 2.301 ms, totaling 114.5 ms.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin starting pre-reload for END.
+[18:43:29] [Server thread/DEBUG] [REI] Reloadables (8):
+[18:43:29] [Server thread/DEBUG] [REI]  - SlotAccessorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntryTypeRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntrySettingsAdapterRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ItemComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - DisplaySerializerRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ServerDisplayRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidSupportProviderImpl
+[18:43:29] [Server thread/DEBUG] [REI] Plugins (3):
+[18:43:29] [Server thread/DEBUG] [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:43:29] [Server thread/DEBUG] [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:43:29] [Server thread/DEBUG] [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 34.16 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/FabricFluidAPISupportPlugin/" done in 245.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 46.56 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-register/" done in 1.019 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/SlotAccessorRegistryImpl/" done in 42.50 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/EntryTypeRegistryImpl/" done in 35.06 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/EntrySettingsAdapterRegistryImpl/" done in 45.15 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/ItemComparatorRegistryImpl/" done in 42.44 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/FluidComparatorRegistryImpl/" done in 43.36 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/DisplaySerializerRegistryImpl/" done in 42.89 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/ServerDisplayRegistryImpl/" done in 39.70 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/FluidSupportProviderImpl/" done in 35.64 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "pre-stage/" done in 1.128 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin finished pre-reload for END in 2.420 ms.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/INFO] [REI] ========================================
+[18:43:29] [Server thread/INFO] [REI] REICommonPlugin starting main-reload for END.
+[18:43:29] [Server thread/DEBUG] [REI] Reloadables (8):
+[18:43:29] [Server thread/DEBUG] [REI]  - SlotAccessorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntryTypeRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - EntrySettingsAdapterRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ItemComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidComparatorRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - DisplaySerializerRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - ServerDisplayRegistryImpl
+[18:43:29] [Server thread/DEBUG] [REI]  - FluidSupportProviderImpl
+[18:43:29] [Server thread/INFO] [REI] Plugins (3):
+[18:43:29] [Server thread/INFO] [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:43:29] [Server thread/INFO] [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:43:29] [Server thread/INFO] [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:43:29] [Server thread/INFO] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/SlotAccessorRegistryImpl/" done in 52.46 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/EntryTypeRegistryImpl/" done in 48.32 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/EntrySettingsAdapterRegistryImpl/" done in 46.55 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/ItemComparatorRegistryImpl/" done in 49.73 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/FluidComparatorRegistryImpl/" done in 46.39 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/DisplaySerializerRegistryImpl/" done in 155.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/ServerDisplayRegistryImpl/" done in 210.1 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/FluidSupportProviderImpl/" done in 169.8 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "start-reload/" done in 2.122 ms
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin started main-reload for END.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 164.2 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/FabricFluidAPISupportPlugin/" done in 169.9 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/DEBUG] [REI] Added slot accessor serializer: me.shedaniel.rei.plugin.common.runtime.DefaultRuntimePlugin$1@5b737b72 [roughlyenoughitems:vanilla]
+[18:43:29] [Server thread/DEBUG] [REI] Added slot accessor serializer: me.shedaniel.rei.plugin.common.runtime.DefaultRuntimePlugin$2@2be55bdd [roughlyenoughitems:player]
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 2.347 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/SlotAccessorRegistryImpl/" done in 3.329 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 57.48 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/FabricFluidAPISupportPlugin/" done in 60.29 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 56.56 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntryTypeRegistryImpl/" done in 537.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 65.89 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/FabricFluidAPISupportPlugin/" done in 68.23 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 55.84 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/EntrySettingsAdapterRegistryImpl/" done in 539.7 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 47.62 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 56.16 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 62.22 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ItemComparatorRegistryImpl/" done in 509.3 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 61.23 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/FabricFluidAPISupportPlugin/" done in 59.77 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 75.06 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidComparatorRegistryImpl/" done in 646.1 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 50.48 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/FabricFluidAPISupportPlugin/" done in 70.94 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 56.35 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/DisplaySerializerRegistryImpl/" done in 556.6 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@4b3a97a9
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@4f5278c4
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@70648dc7
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@120a97dd
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@4fe3af7f
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@559b23cf
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a0179619448@74049734
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@20f94d7b
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@2e84090
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@626e07aa
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@34674d14
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@5e9f5c76
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@1e336bf5
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@c727cce
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@2f38fb9
+[18:43:29] [Server thread/DEBUG] [REI] Added display filter: me.shedaniel.rei.api.common.registry.display.DisplayConsumer$RecipeManagerConsumer$RecipeFillerBuilder$$Lambda/0x00007a017961aa30@26ab1f7d
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 4.010 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/FabricFluidAPISupportPlugin/" done in 48.42 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 39.09 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/ServerDisplayRegistryImpl/" done in 4.441 ms
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 52.41 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/FabricFluidAPISupportPlugin/" done in 48.96 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 46.96 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "reloadable-plugin/FluidSupportProviderImpl/" done in 547.4 μs
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/DEBUG] [REI] REICommonPlugin ending main-reload for END.
+[18:43:29] [Server thread/DEBUG] [REI] ========================================
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/SlotAccessorRegistryImpl/"
+[18:43:29] [Server thread/DEBUG] [REI] Registered 2 slot accessor serializers
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/SlotAccessorRegistryImpl/" done in 198.5 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/EntryTypeRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/EntryTypeRegistryImpl/" done in 38.30 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/EntrySettingsAdapterRegistryImpl/" done in 28.49 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/ItemComparatorRegistryImpl/" done in 26.54 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/FluidComparatorRegistryImpl/" done in 25.02 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/"
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/DisplaySerializerRegistryImpl/" done in 25.31 μs
+[18:43:29] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/ServerDisplayRegistryImpl/"
+[18:43:29] [Server thread/DEBUG] [REI] Found preliminary 0 displays
+[18:43:30] [Server thread/DEBUG] [REI] Filled 2909 displays from recipe manager in 76.82 ms
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/ServerDisplayRegistryImpl/" done in 77.18 ms
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/FluidSupportProviderImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/FluidSupportProviderImpl/" done in 40.52 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "end-reload/" done in 78.79 ms
+[18:43:30] [Server thread/DEBUG] [REI] ========================================
+[18:43:30] [Server thread/DEBUG] [REI] REICommonPlugin ended main-reload for END in 93.96 ms.
+[18:43:30] [Server thread/DEBUG] [REI] ========================================
+[18:43:30] [Server thread/DEBUG] [REI] ========================================
+[18:43:30] [Server thread/DEBUG] [REI] REICommonPlugin starting post-reload for END.
+[18:43:30] [Server thread/DEBUG] [REI] Reloadables (8):
+[18:43:30] [Server thread/DEBUG] [REI]  - SlotAccessorRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - EntryTypeRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - EntrySettingsAdapterRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - ItemComparatorRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - FluidComparatorRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - DisplaySerializerRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - ServerDisplayRegistryImpl
+[18:43:30] [Server thread/DEBUG] [REI]  - FluidSupportProviderImpl
+[18:43:30] [Server thread/DEBUG] [REI] Plugins (3):
+[18:43:30] [Server thread/DEBUG] [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
+[18:43:30] [Server thread/DEBUG] [REI]  - (0.00) FabricFluidAPISupportPlugin
+[18:43:30] [Server thread/DEBUG] [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
+[18:43:30] [Server thread/DEBUG] [REI] ========================================
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/DefaultPlugin of DefaultPlugin [roughlyenoughitems]/" done in 35.63 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/FabricFluidAPISupportPlugin/" done in 33.93 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]/" done in 28.63 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-register/" done in 334.9 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/SlotAccessorRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/SlotAccessorRegistryImpl/" done in 27.97 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/EntryTypeRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/EntryTypeRegistryImpl/" done in 27.43 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/EntrySettingsAdapterRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/EntrySettingsAdapterRegistryImpl/" done in 26.52 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/ItemComparatorRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/ItemComparatorRegistryImpl/" done in 26.31 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/FluidComparatorRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/FluidComparatorRegistryImpl/" done in 27.97 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/DisplaySerializerRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/DisplaySerializerRegistryImpl/" done in 27.54 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/ServerDisplayRegistryImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/ServerDisplayRegistryImpl/" done in 22.47 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/FluidSupportProviderImpl/"
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/FluidSupportProviderImpl/" done in 25.59 μs
+[18:43:30] [Server thread/TRACE] [REI] [REICommonPlugin END] Reloading Section: "post-stage/" done in 771.4 μs
+[18:43:30] [Server thread/DEBUG] [REI] ========================================
+[18:43:30] [Server thread/INFO] [REI] REICommonPlugin finished post-reload for END in 1.212 ms, totaling 97.58 ms.
+[18:43:30] [Server thread/DEBUG] [REI] ========================================

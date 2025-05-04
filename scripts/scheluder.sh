@@ -23,6 +23,7 @@ ls -1t backups | sed -e '1,10d' | xargs -r rm -f
 # 5. Git: stash automático y rebase
 git config user.name "auto-backup-bot"
 git config user.email "backup@github.com"
+
 git checkout main
 git pull --rebase --autostash origin main
 
