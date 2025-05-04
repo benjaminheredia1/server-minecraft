@@ -1,6 +1,6 @@
-[02:35:50] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[02:35:50] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[02:35:50] [main/INFO]: Loading 163 mods:
+[14:27:15] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[14:27:16] [ForkJoinPool-1-worker-4/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[14:27:16] [main/INFO]: Loading 163 mods:
 	- appleskin 3.0.6+mc1.21.5
 	- architectury 16.1.4
 	- balm 21.5.14
@@ -181,555 +181,121 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[02:35:51] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[02:35:51] [main/INFO]: Compatibility level set to JAVA_21
-[02:35:51] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[02:35:51] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
-[02:35:51] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
-[02:35:51] [main/INFO]: Loading config WWMixinsConfig from wilderwild
-[02:35:51] [main/INFO]: Saving config WWMixinsConfig from wilderwild
-[02:35:52] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
-[02:35:52] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
-[02:35:52] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
-[02:35:52] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
-[02:35:56] [main/INFO]: Loading config WWBlockConfig from wilderwild
-[02:35:56] [main/INFO]: Saving config WWBlockConfig from wilderwild
-[02:35:59] [main/INFO]: Loading config WWEntityConfig from wilderwild
-[02:35:59] [main/INFO]: Saving config WWEntityConfig from wilderwild
-[02:36:03] [main/INFO]: Loading Collective version 8.3.
-[02:36:03] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
-[02:36:03] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformCompat@46e2ba4c for service interface com.faboslav.friendsandfoes.common.platform.PlatformCompat
-[02:36:03] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformHelper@768711df for service interface com.faboslav.friendsandfoes.common.platform.PlatformHelper
-[02:36:03] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.ProcessorTypes@6cb6bc61 for service interface com.faboslav.friendsandfoes.common.platform.ProcessorTypes
-[02:36:03] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.BiomeModifications@c8608d1 for service interface com.faboslav.friendsandfoes.common.platform.BiomeModifications
-[02:36:03] [main/INFO]: Loading config FrozenLibConfig from frozenlib
-[02:36:03] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[02:36:03] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
-[02:36:04] [main/INFO]: My Totem Doll Initialized
-[02:36:04] [main/INFO]: Constructing common components for puzzleslib:main
-[02:36:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
-[02:36:05] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
-[02:36:05] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
-[02:36:05] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
-[02:36:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
-[02:36:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
-[02:36:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
-[02:36:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
-[02:36:05] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
-[02:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
-[02:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
-[02:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
-[02:36:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
-[02:36:05] [main/INFO]: Constructing common components for visualworkbench:main
-[02:36:05] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
-[02:36:05] [main/INFO]: [voicechat] Compatibility version 18
-[02:36:05] [main/INFO]: [voicechat] Loading plugins
-[02:36:05] [main/INFO]: [voicechat] Loaded 0 plugin(s)
-[02:36:05] [main/INFO]: [voicechat] Initializing plugins
-[02:36:05] [main/INFO]: [voicechat] Initialized 0 plugin(s)
-[02:36:05] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 4
-[02:36:05] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
-[02:36:05] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
-[02:36:05] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
-[02:36:05] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 3 Datafixer optimizations took 130 milliseconds
-[02:36:05] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
-[02:36:05] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
-[02:36:06] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 391 milliseconds
-[02:36:06] [main/INFO]: DataFixes for Wilder Wild have been applied
-[02:36:07] [main/INFO]: Adding Music And Ambience for wilderwild
-[02:36:07] [main/INFO]: Overriding Water Colors for wilderwild
-[02:36:07] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
-[02:36:07] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
-[02:36:07] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
-[02:36:07] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
-[02:36:07] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
-[02:36:07] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
-[02:36:07] [main/INFO]: Saving config WWMixinsConfig from wilderwild
-[02:36:07] [main/INFO]: Saving config WWBlockConfig from wilderwild
-[02:36:07] [main/INFO]: Saving config WWEntityConfig from wilderwild
-[02:36:07] [main/INFO]: Saving config FrozenLibConfig from frozenlib
-[02:36:07] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
-[02:36:07] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[02:36:12] [main/INFO]: Loaded 2525 recipes
-[02:36:12] [main/INFO]: Loading config WWAmbienceAndMiscConfig from wilderwild
-[02:36:12] [main/INFO]: Saving config WWAmbienceAndMiscConfig from wilderwild
-[02:36:12] [main/INFO]: Loaded 2717 advancements
-[02:36:13] [main/INFO]: Loaded 32 entity animations
-[02:36:13] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 58 translation keys
-[02:36:13] [main/INFO]: Applied 4177 biome modifications to 106 of 106 new biomes in 126.6 ms
-[02:36:13] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry is about to freeze
-[02:36:13] [Server thread/INFO]: [Quilt DFU API] Serverside DataFixer Registry was frozen
-[02:36:13] [Server thread/INFO]: Starting minecraft server version 1.21.5
-[02:36:13] [Server thread/INFO]: Loading properties
-[02:36:13] [Server thread/INFO]: Default game type: SURVIVAL
-[02:36:13] [Server thread/INFO]: Generating keypair
-[02:36:13] [Server thread/INFO]: Starting Minecraft server on *:25565
-[02:36:13] [e4mc_minecraft-init/INFO]: req: https://broker.e4mc.link/getBestRelay GET
-[02:36:13] [Server thread/INFO]: Using epoll channel type
-[02:36:14] [Server thread/INFO]: Using epoll channel type
-[02:36:14] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[02:36:14] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[02:36:14] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[02:36:14] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[02:36:14] [Server thread/INFO]: Preparing level "serverMundo"
-[02:36:14] [Server thread/INFO]: Wilder Wild's Overworld Surface Rules have been added!
-[02:36:14] [Server thread/INFO]: Wilder Wild's No Preliminary Surface Overworld Surface Rules have been added!
-[02:36:14] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[02:36:15] [e4mc_minecraft-init/INFO]: resp: (GET https://broker.e4mc.link/getBestRelay) 200
-[02:36:15] [e4mc_minecraft-init/INFO]: using relay na
-[02:36:16] [nioEventLoopGroup-2-1/INFO]: control channel open: [id: 0x5abc50b9, QuicStreamAddress{streamId=0}]
-[02:36:16] [nioEventLoopGroup-2-1/INFO]: control channel write complete
-[02:36:16] [nioEventLoopGroup-2-1/WARN]: e4mc running on Dedicated Server; This works, but isn't recommended as e4mc is designed for short-lived LAN servers
-[02:36:16] [nioEventLoopGroup-2-1/INFO]: Domain assigned: note-kitchen.na.e4mc.link
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:21] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[02:36:22] [Server thread/INFO]: Time elapsed: 7486 ms
-[02:36:22] [Server thread/INFO]: Done (8.137s)! For help, type "help"
-[02:36:22] [Server thread/INFO]: [REI] ----------------------------------------
-[02:36:22] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for START.
-[02:36:22] [Server thread/INFO]: [REI] Plugins (3):
-[02:36:22] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[02:36:22] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[02:36:22] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[02:36:22] [Server thread/INFO]: [REI] ----------------------------------------
-[02:36:22] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for START in 2.084 ms, totaling 74.32 ms.
-[02:36:22] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[02:36:22] [Server thread/INFO]: [REI] REICommonPlugin starting main-reload for END.
-[02:36:22] [Server thread/INFO]: [REI] Plugins (3):
-[02:36:22] [Server thread/INFO]: [REI]  - (-100.00) DefaultPlugin of DefaultPlugin [roughlyenoughitems]
-[02:36:22] [Server thread/INFO]: [REI]  - (0.00) FabricFluidAPISupportPlugin
-[02:36:22] [Server thread/INFO]: [REI]  - (0.00) DefaultRuntimePlugin of DefaultRuntimePlugin [roughlyenoughitems]
-[02:36:22] [Server thread/INFO]: [REI] ++++++++++++++++++++++++++++++++++++++++
-[02:36:22] [Server thread/INFO]: [REI] REICommonPlugin finished post-reload for END in 1.531 ms, totaling 96.76 ms.
-[02:36:22] [Server thread/INFO]: Start loading plugin from Balm: net.blay09.mods.balm.fabric.compat.hudinfo.FabricJadeModCompat
-[02:36:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.core.CorePlugin
-[02:36:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.vanilla.VanillaPlugin
-[02:36:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.universal.UniversalPlugin
-[02:36:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.access.AccessibilityPlugin
-[02:36:22] [Server thread/INFO]: Start loading plugin from Jade: snownee.jade.addon.debug.DebugPlugin
-[02:36:22] [Server thread/INFO]: Start loading plugin from Polymer (Core): eu.pb4.polymer.core.impl.client.compat.JadeCompatibility
-[02:36:22] [Server thread/INFO]: Start loading plugin from Waystones: net.blay09.mods.waystones.compat.JadeIntegration
-[02:36:22] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
-[02:36:22] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
-[02:36:22] [Server thread/INFO]: Loading Xaero's Minimap - Stage 2/2 (Server)
-[02:36:22] [Server thread/INFO]: Loading Xaero's World Map - Stage 2/2 (Server)
-[02:36:34] [Server thread/INFO]: Lucass61h[/127.81.108.128:59535] logged in with entity id 90 at (1283.3881770452952, 67.0, -2908.688579244749)
-[02:36:34] [Server thread/INFO]: Loading config from file...
-[02:36:34] [Server thread/INFO]: [voicechat] Using Fabric Permissions API
-[02:36:34] [Server thread/INFO]: §c[Auxiliar] §rLucass61h joined the game
-[02:36:35] [Server thread/INFO]: droidmashd[/127.16.80.168:44339] logged in with entity id 91 at (4.699999988079071, 29.0, -383.30000001192093)
-[02:36:35] [Server thread/INFO]: Loading config from file...
-[02:36:35] [Server thread/INFO]: §c[Auxiliar] §rdroidmashd joined the game
-[02:36:36] [Server thread/INFO]: [voicechat] Received secret request of Lucass61h (18)
-[02:36:36] [Server thread/INFO]: [voicechat] Sent secret to Lucass61h
-[02:36:36] [Server thread/INFO]: [voicechat] Received secret request of droidmashd (18)
-[02:36:36] [Server thread/INFO]: [voicechat] Sent secret to droidmashd
-[02:36:36] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2395ms or 47 ticks behind
-[02:36:40] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/412, l='ServerLevel[Lab_R&S]', x=-107.02, y=-20.00, z=-409.58] died: Toxic Slime was killed
-[02:36:41] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/425, l='ServerLevel[Lab_R&S]', x=-115.58, y=-20.00, z=-427.02] died: Toxic Slime was killed
-[02:36:47] [Server thread/INFO]: Lucass61h lost connection: Disconnected
-[02:36:47] [Server thread/INFO]: §c[Auxiliar] §rLucass61h left the game
-[02:36:47] [Server thread/INFO]: [voicechat] Disconnecting client Lucass61h
-[02:36:47] [Server thread/INFO]: droidmashd lost connection: Disconnected
-[02:36:47] [Server thread/INFO]: §c[Auxiliar] §rdroidmashd left the game
-[02:36:47] [Server thread/INFO]: [voicechat] Disconnecting client droidmashd
-[02:37:47] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[02:38:21] [Server thread/INFO]: Lucass61h[/127.81.108.128:44657] logged in with entity id 452 at (1283.3881770452952, 67.0, -2908.688579244749)
-[02:38:21] [Server thread/INFO]: Loading config from file...
-[02:38:21] [Server thread/INFO]: §c[Auxiliar] §rLucass61h joined the game
-[02:38:21] [Server thread/INFO]: [voicechat] Received secret request of Lucass61h (18)
-[02:38:21] [Server thread/INFO]: [voicechat] Sent secret to Lucass61h
-[02:38:25] [Server thread/INFO]: droidmashd[/127.16.80.168:51361] logged in with entity id 651 at (3.455907386260028, 5.0, -383.30000001192093)
-[02:38:25] [Server thread/INFO]: Loading config from file...
-[02:38:25] [Server thread/INFO]: §c[Auxiliar] §rdroidmashd joined the game
-[02:38:25] [Server thread/INFO]: [voicechat] Received secret request of droidmashd (18)
-[02:38:25] [Server thread/INFO]: [voicechat] Sent secret to droidmashd
-[02:40:55] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/1991, l='ServerLevel[Lab_R&S]', x=-128.00, y=-20.00, z=-374.27] died: Toxic Slime was killed
-[02:42:20] [Server thread/INFO]: Hanserm[/127.192.110.142:50159] logged in with entity id 2296 at (1040.097408387374, 64.0, -1348.7105553576555)
-[02:42:20] [Server thread/INFO]: Loading config from file...
-[02:42:20] [Server thread/INFO]: §c[Auxiliar] §rHanserm joined the game
-[02:42:20] [Server thread/INFO]: [voicechat] Received secret request of Hanserm (18)
-[02:42:20] [Server thread/INFO]: [voicechat] Sent secret to Hanserm
-[02:42:21] [Server thread/WARN]: UUID of added entity already exists: class_1428['Chicken'/2420, l='ServerLevel[Lab_R&S]', x=1114.84, y=89.00, z=-1461.85]
-[02:42:21] [Server thread/WARN]: UUID of added entity already exists: class_1646['Unemployed'/2446, l='ServerLevel[Lab_R&S]', x=1161.91, y=82.56, z=-1445.83]
-[02:42:21] [Server thread/WARN]: UUID of added entity already exists: class_1646['Unemployed'/2482, l='ServerLevel[Lab_R&S]', x=1174.19, y=83.00, z=-1473.84]
-[02:42:21] [Server thread/WARN]: UUID of added entity already exists: class_1646['Unemployed'/2483, l='ServerLevel[Lab_R&S]', x=1175.12, y=83.00, z=-1473.07]
-[02:42:25] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> como haremos pa que no se cierre
-[02:42:30] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> NOOO QUE DESGRACIA
-[02:42:33] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> ya tenia como 30 perros xd
-[02:42:47] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [A Major Trial Of Strength]
-[02:43:07] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Best Friends Forever]
-[02:43:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/1938, l='ServerLevel[Lab_R&S]', x=-80.50, y=-20.00, z=-391.50] died: Toxic Slime was killed
-[02:43:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/1939, l='ServerLevel[Lab_R&S]', x=-80.50, y=-20.00, z=-389.50] died: Toxic Slime was killed
-[02:43:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/1940, l='ServerLevel[Lab_R&S]', x=-80.40, y=-20.00, z=-416.88] died: Toxic Slime was killed
-[02:44:40] [Server thread/ERROR]: Tried to load invalid item: 'No key id in MapLike[{}]'
-[02:44:40] [Server thread/INFO]: Mi_macho[/127.170.252.58:58709] logged in with entity id 3940 at (533.7095372846503, 103.0, -1142.9885669772596)
-[02:44:40] [Server thread/INFO]: Loading config from file...
-[02:44:41] [Server thread/INFO]: §6[Administrativo] §rMi_macho joined the game
-[02:44:41] [Server thread/INFO]: [voicechat] Received secret request of Mi_macho (18)
-[02:44:41] [Server thread/INFO]: [voicechat] Sent secret to Mi_macho
-[02:48:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/4874, l='ServerLevel[Lab_R&S]', x=-70.50, y=-20.00, z=-452.50] died: Toxic Slime was killed
-[02:48:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/4875, l='ServerLevel[Lab_R&S]', x=-74.50, y=-20.00, z=-454.50] died: Toxic Slime was killed
-[02:48:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/4876, l='ServerLevel[Lab_R&S]', x=-68.50, y=-20.00, z=-453.50] died: Toxic Slime was killed
-[02:49:06] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=-21, y=-51, z=186}
-[02:50:08] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> ENCONTRE UN BARCO EN EL MEDIO DEL OCEANO DE LOS VILLAGERS
-[02:50:29] [Server thread/INFO]: Loading config WWItemConfig from wilderwild
-[02:50:29] [Server thread/INFO]: Saving config WWItemConfig from wilderwild
-[02:50:42] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> guarda waypoint y compartilo dandole click derecho estando en el mapa "M"
-[02:51:15] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> sino pasa coords xd
-[02:51:29] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> ya lo estoy saqueando hay artis peces
-[02:51:38] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/7756, l='ServerLevel[Lab_R&S]', x=16.02, y=-20.00, z=-411.81] died: Toxic Slime was killed
-[02:51:38] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/7757, l='ServerLevel[Lab_R&S]', x=-129.84, y=-20.00, z=-383.39] died: Toxic Slime was killed
-[02:51:38] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/7758, l='ServerLevel[Lab_R&S]', x=-131.26, y=-20.00, z=-396.10] died: Toxic Slime was killed
-[02:52:15] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> xaero-waypoint:barco saquadores:B:988:71:-4335:8:false:0:Internal-overworld
-[02:52:23] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> lejisimos ajsjas
-[02:52:57] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> jaja igual ya los estoy matando
-[02:53:08] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/9138, l='ServerLevel[Lab_R&S]', x=-145.50, y=-20.00, z=-358.50] died: Toxic Slime was killed
-[02:53:08] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/9139, l='ServerLevel[Lab_R&S]', x=-144.50, y=-20.00, z=-354.50] died: Toxic Slime was killed
-[02:53:08] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/9140, l='ServerLevel[Lab_R&S]', x=-130.84, y=-20.00, z=-347.25] died: Toxic Slime was killed
-[02:53:08] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/9141, l='ServerLevel[Lab_R&S]', x=-145.50, y=-20.00, z=-355.50] died: Toxic Slime was killed
-[02:53:41] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> como se hace la mochila?
-[02:53:54] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> ahorita te hago una que vuelva
-[02:53:57] [Server thread/WARN]: Tried to over-fill a container
-[02:54:21] [Server thread/WARN]: Tried to over-fill a container
-[02:55:57] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> les llevare las ballaestas multidisparos a cada uno encontre 4
-[02:56:02] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> bieen
-[02:56:09] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> bien
-[02:57:39] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> mira tio
-[02:57:48] [Server thread/INFO]: §c[Auxiliar] §rLucass61h has made the advancement [Who's the Pillager Now?]
-[02:57:54] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> aqui voy encerrar a masiel cuando se conecta otra vez al server
-[02:58:03] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> hahahaha
-[02:58:18] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> entro al server y comenzo a matar a medio mundo
-[02:58:26] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> mieee
-[02:58:50] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> ya encontre una forma de hacer que no se desconecte el server
-[02:58:51] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> que atrevida
-[02:58:53] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> con google colab
-[02:59:07] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> de paso le dijo onvre
-[02:59:07] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> pero ya no son 16gb de ram, si no 12gb
-[02:59:09] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> jsdajshd
-[02:59:11] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> nos dijo*
-[02:59:16] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> siJAJA
-[03:00:50] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> xaero-waypoint:torre de pillager:T:824:83:-816:7:false:0:Internal-overworld
-[03:04:41] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> la mochila plox
-[03:04:44] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> voy
-[03:05:06] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Sweet Dreams]
-[03:05:37] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> dejate de huevadas
-[03:05:42] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> hahahaha
-[03:05:54] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> de toda raza
-[03:06:13] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> se puede elegir trabajos o algo?
-[03:06:21] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> xaero-waypoint:fortaleza acuatica:F:896:63:-4372:5:false:0:Internal-overworld
-[03:06:24] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> no
-[03:06:36] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> si benja añade un plugin si
-[03:08:39] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> ya vuelvo, ire a revisar las cordenadas que tenia
-[03:08:41] [Server thread/INFO]: Mi_macho lost connection: Disconnected
-[03:08:41] [Server thread/INFO]: §6[Administrativo] §rMi_macho left the game
-[03:08:41] [Server thread/INFO]: [voicechat] Disconnecting client Mi_macho
-[03:08:53] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> oye qe delfin mas jodido
-[03:08:56] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> jasjasj
-[03:09:00] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> pero si los delfines no hacen nada malo
-[03:09:17] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> hay un efecto qe te da gracia del delfin dice
-[03:09:26] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> te mueve y arrastra
-[03:10:20] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> hans
-[03:10:26] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> alguien tiene diamantes
-[03:10:31] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> yo
-[03:10:35] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> porfa, 3
-[03:10:55] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> gracias
-[03:11:06] [Server thread/ERROR]: Tried to load invalid item: 'No key id in MapLike[{}]'
-[03:11:06] [Server thread/INFO]: Mi_macho[/127.170.252.58:48889] logged in with entity id 20819 at (533.430311396172, 103.0, -1129.6705899038097)
-[03:11:06] [Server thread/INFO]: Loading config from file...
-[03:11:06] [Server thread/INFO]: §6[Administrativo] §rMi_macho joined the game
-[03:11:06] [Server thread/INFO]: [voicechat] Received secret request of Mi_macho (18)
-[03:11:06] [Server thread/INFO]: [voicechat] Sent secret to Mi_macho
-[03:11:12] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> quien tiene oro
-[03:11:26] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> agradecido
-[03:16:27] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> tomen sus ballestas
-[03:16:50] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> jasja
-[03:16:50] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> zzz
-[03:17:21] [Server thread/INFO]: §c[Auxiliar] §rdroidmashd fell from a high place
-[03:17:21] [Server thread/INFO]: Created new backpack backup file for §c[Auxiliar] §rdroidmashd with unique ID travelersbackpack.iron_golem_04.05.2025-03.17.21.dat
-[03:17:23] [Server thread/ERROR]: Tried to load invalid item: 'No key id in MapLike[{}]'
-[03:17:28] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> gg
-[03:18:25] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7415ms or 148 ticks behind
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -10.293934272371075,3.0269120543380268E-12,-0.8332910277922565
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -10.687801533269635,3.0482283364108298E-12,-0.8980241050792301
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -11.08152316400583,3.069544618483633E-12,-0.9640385831314688
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -11.47510627329359,3.090860900556436E-12,-1.0312439402889595
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -11.86855797795613,3.105071755271638E-12,-1.0995549393944657
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -12.26188540211524,3.11928260998684E-12,-1.1688911007397564
-[03:18:25] [Server thread/WARN]: Hanserm moved too quickly! -2.1390910332029307,-0.7967356006687112,9.913279300964632
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -12.655095691362703,3.133493464702042E-12,-1.239176228183851
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -13.048196021788726,3.140598892059643E-12,-1.3103379817268888
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -13.441192836973414,3.147704319417244E-12,-1.3823112535083055
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -13.834092681196694,3.147704319417244E-12,-1.4550336848431016
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -14.226901436859748,3.147704319417244E-12,-1.528449151984887
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -14.619625158082727,3.140598892059643E-12,-1.6025033828830146
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -15.012269282397824,3.133493464702042E-12,-1.6771475317614204
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -15.404839470993466,3.126388037344441E-12,-1.7523338795365362
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -15.797340811488766,3.11928260998684E-12,-1.8280194781029877
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -16.189777879015423,3.11928260998684E-12,-1.9041656732354113
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -16.582154791191783,3.11928260998684E-12,-1.9807376752007713
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -16.974476021284204,3.11928260998684E-12,-2.0577004172162106
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -17.366745591506856,3.11928260998684E-12,-2.135022338246472
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -17.758967125577783,3.11928260998684E-12,-2.212675032429388
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -18.151144652252924,3.11928260998684E-12,-2.2906291793972287
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -18.54328102627744,3.11928260998684E-12,-2.3688621459120895
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -18.935514570225678,3.11928260998684E-12,-2.4466650301587833
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -19.32805856298023,3.11928260998684E-12,-2.522776770840437
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -19.72112510190027,3.11928260998684E-12,-2.595495594534441
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -20.114805166043425,3.11928260998684E-12,-2.6634680863012363
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -20.509104785923682,3.11928260998684E-12,-2.7256403114629393
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -20.903972630480553,3.11928260998684E-12,-2.7812156581053387
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.299320946147418,3.11928260998684E-12,-2.8296155606301454
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.695041261593133,3.11928260998684E-12,-2.8704471061539607
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -22.091015262360088,3.11928260998684E-12,-2.9034656791600355
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -22.487123441824224,3.11928260998684E-12,-2.928556312287583
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -22.883250156421582,3.11928260998684E-12,-2.945705256668589
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -23.279287434018897,3.11928260998684E-12,-2.954981943834582
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -23.675137313662617,3.11928260998684E-12,-2.956522716508289
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -24.070713720384788,3.11928260998684E-12,-2.9505199642260322
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -24.465942040288496,3.11928260998684E-12,-2.9372048282289143
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -24.860759438480045,3.11928260998684E-12,-2.91683923033429
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -25.254954331875297,3.11928260998684E-12,-2.889025522589691
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -25.648146946648353,3.11928260998684E-12,-2.852852399239964
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -26.039752586261557,3.11928260998684E-12,-2.807019773673346
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -26.428942533998224,3.11928260998684E-12,-2.7499649214410056
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -26.814605359744178,3.11928260998684E-12,-2.6799764960549055
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -27.195687519673015,3.11928260998684E-12,-2.5958924324841064
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -27.5712384923346,3.11928260998684E-12,-2.4970060785362875
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -27.940427870336748,3.11928260998684E-12,-2.3829690974087043
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -28.30256192377601,3.11928260998684E-12,-2.2537244666359584
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -28.657079638729556,3.11928260998684E-12,-2.109436334928887
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -29.003548920929575,3.11928260998684E-12,-1.9504384454560295
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -29.34166041863068,3.11928260998684E-12,-1.7771927030987626
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -29.64596075850045,3.11928260998684E-12,-1.6212715391077381
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -29.919831057128135,3.11928260998684E-12,-1.4809424952331938
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -30.166314319363437,3.11928260998684E-12,-1.3546463590917028
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -30.38814924949861,3.11928260998684E-12,-1.2409798395756297
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -30.587800681331373,3.11928260998684E-12,-1.1386799747210716
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -30.76748696522077,3.11928260998684E-12,-1.0466100987910067
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -30.92920461643712,3.11928260998684E-12,-0.9637472126491957
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.074750498676167,3.11928260998684E-12,-0.8891706170970792
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.822051682878282
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.7616446436816204
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.7072783098446962
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.6583486106876535
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.6143118826130376
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.5746788283956903
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.5390090805451564
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.506906308329917
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.47801381410158683
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.4520105699850774
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.392161500507882
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.30177572580737433
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.1838399662167376
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -31.200905657600174,3.11928260998684E-12,-0.07802687891080495
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> uy
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:25] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -21.30099221625312,1.0658141036401503E-13,0.6919130442233836
-[03:18:47] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Mind Your Manors]
-[03:18:54] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rdroidmashd> la ballesta lucas
-[03:20:23] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Monster Hunter]
-[03:21:26] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/26431, l='ServerLevel[Lab_R&S]', x=-64.01, y=-20.00, z=-452.29] died: Toxic Slime was killed
-[03:23:40] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/27118, l='ServerLevel[Lab_R&S]', x=-122.74, y=-20.00, z=-381.46] died: Toxic Slime was killed
-[03:24:17] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/27823, l='ServerLevel[Lab_R&S]', x=-79.58, y=-20.00, z=-350.75] died: Toxic Slime was killed
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -4.721098939513666,0.0,-9.252954563322874
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -4.901736568606452,0.0,-9.606989036193681
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -5.082489865766149,0.0,-9.961250208691126
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -5.263347264183324,0.0,-10.315715410847588
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -5.444298353729749,0.0,-10.670364239691935
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -5.625333765290264,0.0,-11.02517833255115
-[03:25:51] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! -5.8064450666614675,0.0,-11.380141163019744
-[03:26:09] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/29373, l='ServerLevel[Lab_R&S]', x=-108.17, y=-20.00, z=-401.90] died: Toxic Slime was killed
-[03:26:11] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Breathtaking]
-[03:27:12] [Server thread/INFO]: Named entity class_1621['Toxic Slime'/30245, l='ServerLevel[Lab_R&S]', x=-139.33, y=-20.00, z=-400.74] died: Toxic Slime was killed
-[03:29:41] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> donde estas damar
-[03:29:42] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> que es eso
-[03:29:51] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> de ida a los aldeanos
-[03:29:57] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> reparacion
-[03:30:05] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> cuales
-[03:30:18] [Server thread/INFO]: §c[Auxiliar] §rLucass61h has made the advancement [Incendium]
-[03:30:18] [Server thread/INFO]: §c[Auxiliar] §rLucass61h has made the advancement [We Need to Go Deeper]
-[03:30:18] [Server thread/INFO]: §c[Auxiliar] §rLucass61h has made the advancement [Ancient Battlefield]
-[03:30:18] [Server thread/INFO]: §c[Auxiliar] §rLucass61h has made the advancement [Strange Biomes]
-[03:30:24] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> -303, 72, -7848
-[03:30:49] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> miorda
-[03:30:51] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> y pq tan lejos
-[03:31:08] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> hans tus lobos estan en el nether
-[03:31:12] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> si ahi deje 3
-[03:33:16] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Going With The Norm]
-[03:33:24] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/36390, l='ServerLevel[Lab_R&S]', x=22.47, y=-20.00, z=-243.47] died: Restless Spirit was killed
-[03:33:36] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/36362, l='ServerLevel[Lab_R&S]', x=-5.71, y=-20.00, z=-203.84] died: Restless Spirit was killed
-[03:33:45] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/36380, l='ServerLevel[Lab_R&S]', x=-43.50, y=-20.00, z=-135.50] died: Restless Spirit was killed
-[03:34:24] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/36786, l='ServerLevel[Lab_R&S]', x=-44.50, y=-20.00, z=-102.50] died: Restless Spirit was killed
-[03:34:29] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Fortune In Hell]
-[03:34:32] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Hot Stuff]
-[03:35:19] [Server thread/INFO]: §c[Auxiliar] §rdroidmashd has made the advancement [Ol' Betsy]
-[03:36:04] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Crim-Soon]
-[03:37:34] [Server thread/INFO]: §c[Auxiliar] §rLucass61h has made the advancement [A Major Trial Of Strength]
-[03:37:43] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! 0.8176405441762924,0.0,-11.186808951893
-[03:37:43] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! 0.9367182923490276,0.0,-12.816009006511194
-[03:37:55] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Crimson Prism]
-[03:38:28] [Server thread/WARN]: Dark Oak Boat (vehicle of Mi_macho) moved too quickly! 0.5475530781606608,0.0,-10.383138444867654
-[03:39:21] [Worker-Main-2/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=4, y=79, z=-6157}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
-[03:39:21] [Server thread/INFO]: §c[Auxiliar] §rHanserm has reached the goal [Common Occurrence]
-[03:39:22] [Worker-Main-1/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=4, y=79, z=-6157}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
-[03:40:12] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Ghostbusters!]
-[03:41:04] [Server thread/INFO]: §c[Auxiliar] §rdroidmashd has made the advancement [A Major Trial Of Strength]
-[03:41:29] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Boo! Did I Scare You?]
-[03:43:56] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Radioactive]
-[03:46:46] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> llegaste damar?
-[03:46:50] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> SI
-[03:46:57] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [What a Deal!]
-[03:47:24] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> necesito esmeraldas
-[03:47:38] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> hay waystone?
-[03:47:49] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> uff si menos mal
-[03:48:45] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> dame uno damar
-[03:48:52] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> te di todas mis esmeraldas xd
-[03:49:06] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rLucass61h> en donde estan
-[03:49:17] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> xaero-waypoint:Shared Location:S:-328:77:-7816:6:false:0:Internal-overworld
-[03:49:21] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> ahi
-[03:50:38] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> se puede convinar libros?
-[03:50:44] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> no
-[03:51:04] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> y por que?]
-[03:51:17] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> porque no instale ese mod xd
-[03:53:55] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> pq viniste tan lejos
-[03:53:58] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> por aldeanos
-[03:54:01] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> he he
-[03:54:09] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> si a 300 bloques de carniceria hay otra aldea
-[03:54:20] [Worker-Main-4/WARN]: Empty or non-existent pool: kaisyn:village/meadow_swiss/villagers
-[03:55:43] [Server thread/INFO]: Lucass61h lost connection: Disconnected
-[03:55:43] [Server thread/INFO]: §c[Auxiliar] §rLucass61h left the game
-[03:55:43] [Server thread/INFO]: [voicechat] Disconnecting client Lucass61h
-[03:56:04] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> zzz
-[03:59:32] [Worker-Main-2/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=1615, y=69, z=-2273}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
-[03:59:36] [Worker-Main-1/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=1615, y=69, z=-2273}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
-[04:00:11] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=1340, y=81, z=648}
-[04:05:03] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Incendium]
-[04:05:03] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [We Need to Go Deeper]
-[04:05:04] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Ancient Battlefield]
-[04:05:04] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Strange Biomes]
-[04:05:12] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65888, l='ServerLevel[Lab_R&S]', x=100.55, y=-20.00, z=-149.11] died: Restless Spirit was killed
-[04:05:56] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Sins In Your Past Life?]
-[04:06:10] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> y como
-[04:06:13] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> si apenas caminaste xd
-[04:06:23] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65901, l='ServerLevel[Lab_R&S]', x=109.08, y=-20.00, z=-60.03] died: Restless Spirit was killed
-[04:06:35] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> que suertudo diosmio
-[04:06:44] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> eee
-[04:06:45] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> tas bug
-[04:06:53] [Server thread/INFO]: §6[Administrativo] §rMi_macho has reached the goal [Commoner]
-[04:06:59] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65899, l='ServerLevel[Lab_R&S]', x=125.50, y=-20.00, z=-60.47] died: Restless Spirit was killed
-[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65950, l='ServerLevel[Lab_R&S]', x=102.50, y=-20.00, z=-36.50] died: Restless Spirit was killed
-[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65959, l='ServerLevel[Lab_R&S]', x=120.36, y=-20.00, z=-59.57] died: Restless Spirit was killed
-[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65962, l='ServerLevel[Lab_R&S]', x=43.50, y=-20.00, z=-44.50] died: Restless Spirit was killed
-[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65981, l='ServerLevel[Lab_R&S]', x=137.50, y=-20.00, z=-91.50] died: Restless Spirit was killed
-[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65999, l='ServerLevel[Lab_R&S]', x=149.50, y=-20.00, z=-78.50] died: Restless Spirit was killed
-[04:07:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66006, l='ServerLevel[Lab_R&S]', x=135.50, y=-20.00, z=-133.50] died: Restless Spirit was killed
-[04:07:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66013, l='ServerLevel[Lab_R&S]', x=13.50, y=-20.00, z=-227.50] died: Restless Spirit was killed
-[04:08:05] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66206, l='ServerLevel[Lab_R&S]', x=-37.50, y=-20.00, z=-44.50] died: Restless Spirit was killed
-[04:08:10] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66228, l='ServerLevel[Lab_R&S]', x=2.50, y=-20.00, z=-36.50] died: Restless Spirit was killed
-[04:08:10] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66240, l='ServerLevel[Lab_R&S]', x=-2.50, y=-20.00, z=-227.50] died: Restless Spirit was killed
-[04:08:14] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66256, l='ServerLevel[Lab_R&S]', x=73.50, y=-20.00, z=-215.50] died: Restless Spirit was killed
-[04:08:26] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66299, l='ServerLevel[Lab_R&S]', x=83.50, y=-20.00, z=-32.50] died: Restless Spirit was killed
-[04:08:33] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> que tiene tu pico
-[04:08:45] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> no se
-[04:08:47] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66336, l='ServerLevel[Lab_R&S]', x=126.50, y=-20.00, z=-72.50] died: Restless Spirit was killed
-[04:08:48] [Server thread/INFO]: §6[Administrativo] §rMi_macho has reached the goal [Common Occurrence]
-[04:08:53] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66356, l='ServerLevel[Lab_R&S]', x=53.50, y=-20.00, z=-213.50] died: Restless Spirit was killed
-[04:08:59] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> asi fue siempre o recien
-[04:09:12] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> recien
-[04:09:32] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66485, l='ServerLevel[Lab_R&S]', x=10.50, y=-20.00, z=-216.50] died: Restless Spirit was killed
-[04:09:40] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66508, l='ServerLevel[Lab_R&S]', x=62.50, y=-20.00, z=-16.50] died: Restless Spirit was killed
-[04:09:47] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66516, l='ServerLevel[Lab_R&S]', x=-56.50, y=-20.00, z=-113.50] died: Restless Spirit was killed
-[04:10:04] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66539, l='ServerLevel[Lab_R&S]', x=-48.09, y=-20.00, z=-101.61] died: Restless Spirit was killed
-[04:10:15] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66554, l='ServerLevel[Lab_R&S]', x=-21.50, y=-20.00, z=-196.50] died: Restless Spirit was killed
-[04:10:36] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66577, l='ServerLevel[Lab_R&S]', x=112.50, y=-20.00, z=-54.50] died: Restless Spirit was killed
-[04:11:22] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> todo se hace eso
-[04:11:40] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> tas bugeadisimo xd
-[04:12:02] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66972, l='ServerLevel[Lab_R&S]', x=102.50, y=-20.00, z=-45.50] died: Restless Spirit was killed
-[04:12:22] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> pasame tu pico
-[04:12:44] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> sos vos el bug
-[04:12:47] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> capaz sera el rol
-[04:13:10] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/67434, l='ServerLevel[Lab_R&S]', x=-5.50, y=-20.00, z=-210.50] died: Restless Spirit was killed
-[04:15:25] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> y solo te tocan esos comunes
-[04:15:27] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> conio
-[04:15:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/67801, l='ServerLevel[Lab_R&S]', x=37.50, y=-20.00, z=-212.50] died: Restless Spirit was killed
-[04:15:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/67803, l='ServerLevel[Lab_R&S]', x=-0.28, y=-20.00, z=-31.98] died: Restless Spirit was killed
-[04:15:36] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> como mino ahora
-[04:15:47] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> a ver aca
-[04:16:01] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> xd
-[04:16:24] [Server thread/INFO]: §6[Administrativo] §rMi_macho has reached the goal [Common Lads!]
-[04:17:04] [Server thread/INFO]: §c[Auxiliar] §rHanserm has made the advancement [Into Fire]
-[04:17:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/68043, l='ServerLevel[Lab_R&S]', x=80.48, y=-20.00, z=-124.29] died: Restless Spirit was killed
+[14:27:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[14:27:16] [main/INFO]: Compatibility level set to JAVA_21
+[14:27:17] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[14:27:17] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
+[14:27:17] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[14:27:17] [main/INFO]: Loading config WWMixinsConfig from wilderwild
+[14:27:17] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[14:27:18] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[14:27:18] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[14:27:18] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[14:27:19] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[14:27:24] [main/INFO]: Loading config WWBlockConfig from wilderwild
+[14:27:24] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[14:27:27] [main/INFO]: Loading config WWEntityConfig from wilderwild
+[14:27:27] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[14:27:31] [main/INFO]: Loading Collective version 8.3.
+[14:27:31] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[14:27:31] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformCompat@46e2ba4c for service interface com.faboslav.friendsandfoes.common.platform.PlatformCompat
+[14:27:31] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.PlatformHelper@768711df for service interface com.faboslav.friendsandfoes.common.platform.PlatformHelper
+[14:27:31] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.ProcessorTypes@6cb6bc61 for service interface com.faboslav.friendsandfoes.common.platform.ProcessorTypes
+[14:27:31] [main/INFO]: Loaded com.faboslav.friendsandfoes.fabric.platform.BiomeModifications@c8608d1 for service interface com.faboslav.friendsandfoes.common.platform.BiomeModifications
+[14:27:31] [main/INFO]: Loading config FrozenLibConfig from frozenlib
+[14:27:31] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[14:27:32] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 1.1.x (Linux x86_64)
+[14:27:33] [main/INFO]: My Totem Doll Initialized
+[14:27:33] [main/INFO]: Constructing common components for puzzleslib:main
+[14:27:33] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:request_tags_c2s
+[14:27:33] [main/INFO]: [REI] Registered plugin provider DefaultPlugin [roughlyenoughitems] for REICommonPlugin
+[14:27:33] [main/INFO]: [REI] Registered plugin provider DefaultRuntimePlugin [roughlyenoughitems] for REICommonPlugin
+[14:27:33] [main/INFO]: [REI] Registered plugin provider FabricFluidAPISupportPlugin for REICommonPlugin
+[14:27:33] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:delete_item
+[14:27:33] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item
+[14:27:33] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_grab
+[14:27:33] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:create_item_hotbar
+[14:27:33] [main/INFO]: Registering C2S receiver with id roughlyenoughitems:move_items_new
+[14:27:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[14:27:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[14:27:34] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[14:27:34] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[14:27:34] [main/INFO]: Constructing common components for visualworkbench:main
+[14:27:34] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[14:27:34] [main/INFO]: [voicechat] Compatibility version 18
+[14:27:34] [main/INFO]: [voicechat] Loading plugins
+[14:27:34] [main/INFO]: [voicechat] Loaded 0 plugin(s)
+[14:27:34] [main/INFO]: [voicechat] Initializing plugins
+[14:27:34] [main/INFO]: [voicechat] Initialized 0 plugin(s)
+[14:27:34] [main/INFO]: Applying Minecraft-Version-Based DataFixes for Wilder Wild with Data Version 4
+[14:27:34] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[14:27:34] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[14:27:34] [main/WARN]: Ignored fix registered for version: 5 as the DataVersion of the game is: 4
+[14:27:34] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 3 Datafixer optimizations took 146 milliseconds
+[14:27:34] [main/INFO]: Minecraft-Version-Specific DataFixes for Wilder Wild have been applied
+[14:27:34] [main/INFO]: Applying DataFixes for Wilder Wild with Data Version 28
+[14:27:35] [FrozenLib Quilt Datafixer Bootstrap/INFO]: 27 Datafixer optimizations took 592 milliseconds
+[14:27:35] [main/INFO]: DataFixes for Wilder Wild have been applied
+[14:27:36] [main/INFO]: Adding Music And Ambience for wilderwild
+[14:27:36] [main/INFO]: Overriding Water Colors for wilderwild
+[14:27:36] [main/WARN]: Encountered duplicate API provider registration for block: wilderwild:stone_chest
+[14:27:36] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[14:27:36] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[14:27:36] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[14:27:36] [main/INFO]: Loading config WWWorldgenConfig from wilderwild
+[14:27:36] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[14:27:36] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[14:27:36] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[14:27:36] [main/INFO]: Saving config WWEntityConfig from wilderwild
+[14:27:36] [main/INFO]: Saving config FrozenLibConfig from frozenlib
+[14:27:36] [main/INFO]: Saving config WWWorldgenConfig from wilderwild
+[14:27:36] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14:27:36] [main/WARN]: Failed to load world data from ./serverMundo/level.dat
+java.nio.file.AccessDeniedException: ./serverMundo/level.dat
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at knot/net.minecraft.class_2507.method_30613(class_2507.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_54529(class_32.java:216) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_54528(class_32.java:220) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.method_27013(class_32.java:444) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.method_54545(class_32.java:435) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:145) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[14:27:36] [main/INFO]: Attempting to use fallback
+[14:27:36] [main/ERROR]: Failed to load world data from ./serverMundo/level.dat_old
+java.nio.file.AccessDeniedException: ./serverMundo/level.dat_old
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:90) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?]
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?]
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:380) ~[?:?]
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:432) ~[?:?]
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420) ~[?:?]
+	at java.base/java.nio.file.Files.newInputStream(Files.java:160) ~[?:?]
+	at knot/net.minecraft.class_2507.method_30613(class_2507.java:35) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_54529(class_32.java:216) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32.method_54528(class_32.java:220) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.method_27013(class_32.java:444) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.class_32$class_5143.method_54546(class_32.java:439) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:152) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+[14:27:36] [main/ERROR]: Failed to load world data from ./serverMundo/level.dat and ./serverMundo/level.dat_old. World files may be corrupted. Shutting down.

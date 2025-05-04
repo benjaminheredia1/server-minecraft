@@ -11,11 +11,6 @@ while true; do
     > mensaje.txt
     echo "Mensaje eliminado."
 
-    sleep 1
+    sleep 100
 
-    git add .
-    git commit -m "Actualización automática"
-    git push origin main
-
-    sleep 200
 done
