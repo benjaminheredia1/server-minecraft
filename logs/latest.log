@@ -1,6 +1,6 @@
-[18:43:32] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
-[18:43:32] [ForkJoinPool-1-worker-3/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[18:43:32] [main/INFO]: Loading 163 mods:
+[22:34:51] [main/INFO]: Loading Minecraft 1.21.5 with Fabric Loader 0.16.14
+[22:34:52] [ForkJoinPool-1-worker-3/WARN]: Mod mr_dungeons uses the version 1.9.0b which isn't compatible with Loader's extended semantic version format (Could not parse version number component '0b'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[22:34:52] [main/INFO]: Loading 163 mods:
 	- appleskin 3.0.6+mc1.21.5
 	- architectury 16.1.4
 	- balm 21.5.14
@@ -181,11 +181,25 @@
 	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
 	   |-- org_quiltmc_parsers_gson 0.2.1
 	   \-- org_quiltmc_parsers_json 0.2.1
-[18:43:32] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
-[18:43:32] [main/INFO]: Compatibility level set to JAVA_21
-[18:43:33] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:43:33] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:43:33] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:43:33] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
-[18:43:33] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
-[18:43:33] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
+[22:34:52] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/server-minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[22:34:52] [main/INFO]: Compatibility level set to JAVA_21
+[22:34:52] [main/WARN]: Reference map 'durabilitytooltip.mixins.refmap.json' for durabilitytooltip.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:52] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[22:34:53] [main/INFO]: Loaded configuration file for Lithium: 155 options available, 1 override(s) found.
+[22:34:53] [main/WARN]: Reference map 'supermartijn642configlib.mixins.refmap.json' for supermartijn642configlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/WARN]: Reference map 'trashslot.refmap.json' for trashslot.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[22:34:53] [main/INFO]: Loading config WWMixinsConfig from wilderwild
+[22:34:53] [main/INFO]: Saving config WWMixinsConfig from wilderwild
+[22:34:54] [main/INFO]: Force-disabling mixin 'world.raycast.BlockGetterMixin' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[22:34:54] [main/INFO]: Force-disabling mixin 'world.raycast.ClipContextAccessor' as rule 'mixin.world.raycast' (added by mods [wilderwild]) disables it and children
+[22:34:54] [main/WARN]: Error loading class: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity (java.lang.ClassNotFoundException: com/simibubi/create/content/kinetics/base/BlockBreakingKineticBlockEntity)
+[22:34:54] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[22:34:58] [main/INFO]: Loading config WWBlockConfig from wilderwild
+[22:34:58] [main/INFO]: Saving config WWBlockConfig from wilderwild
+[22:35:01] [main/INFO]: Loading config WWEntityConfig from wilderwild
+[22:35:01] [main/INFO]: Saving config WWEntityConfig from wilderwild
