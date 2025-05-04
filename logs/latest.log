@@ -673,3 +673,45 @@
 [03:55:43] [Server thread/INFO]: Lucass61h lost connection: Disconnected
 [03:55:43] [Server thread/INFO]: §c[Auxiliar] §rLucass61h left the game
 [03:55:43] [Server thread/INFO]: [voicechat] Disconnecting client Lucass61h
+[03:56:04] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> zzz
+[03:59:32] [Worker-Main-2/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=1615, y=69, z=-2273}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
+[03:59:36] [Worker-Main-1/ERROR]: Failed to parse jigsaw replacement state 'minecraft:dark_oak_log[axiz=z]' at class_2338{x=1615, y=69, z=-2273}: Block minecraft:dark_oak_log does not have property 'axiz' at position 23: ...k_oak_log[<--[HERE]
+[04:00:11] [Worker-Main-1/ERROR]: Block-attached entity at invalid position: class_2338{x=1340, y=81, z=648}
+[04:05:03] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Incendium]
+[04:05:03] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [We Need to Go Deeper]
+[04:05:04] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Ancient Battlefield]
+[04:05:04] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Strange Biomes]
+[04:05:12] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65888, l='ServerLevel[Lab_R&S]', x=100.55, y=-20.00, z=-149.11] died: Restless Spirit was killed
+[04:05:56] [Server thread/INFO]: §6[Administrativo] §rMi_macho has made the advancement [Sins In Your Past Life?]
+[04:06:10] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> y como
+[04:06:13] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> si apenas caminaste xd
+[04:06:23] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65901, l='ServerLevel[Lab_R&S]', x=109.08, y=-20.00, z=-60.03] died: Restless Spirit was killed
+[04:06:35] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> que suertudo diosmio
+[04:06:44] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> eee
+[04:06:45] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> tas bug
+[04:06:53] [Server thread/INFO]: §6[Administrativo] §rMi_macho has reached the goal [Commoner]
+[04:06:59] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65899, l='ServerLevel[Lab_R&S]', x=125.50, y=-20.00, z=-60.47] died: Restless Spirit was killed
+[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65950, l='ServerLevel[Lab_R&S]', x=102.50, y=-20.00, z=-36.50] died: Restless Spirit was killed
+[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65959, l='ServerLevel[Lab_R&S]', x=120.36, y=-20.00, z=-59.57] died: Restless Spirit was killed
+[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65962, l='ServerLevel[Lab_R&S]', x=43.50, y=-20.00, z=-44.50] died: Restless Spirit was killed
+[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65981, l='ServerLevel[Lab_R&S]', x=137.50, y=-20.00, z=-91.50] died: Restless Spirit was killed
+[04:07:34] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/65999, l='ServerLevel[Lab_R&S]', x=149.50, y=-20.00, z=-78.50] died: Restless Spirit was killed
+[04:07:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66006, l='ServerLevel[Lab_R&S]', x=135.50, y=-20.00, z=-133.50] died: Restless Spirit was killed
+[04:07:35] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66013, l='ServerLevel[Lab_R&S]', x=13.50, y=-20.00, z=-227.50] died: Restless Spirit was killed
+[04:08:05] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66206, l='ServerLevel[Lab_R&S]', x=-37.50, y=-20.00, z=-44.50] died: Restless Spirit was killed
+[04:08:10] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66228, l='ServerLevel[Lab_R&S]', x=2.50, y=-20.00, z=-36.50] died: Restless Spirit was killed
+[04:08:10] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66240, l='ServerLevel[Lab_R&S]', x=-2.50, y=-20.00, z=-227.50] died: Restless Spirit was killed
+[04:08:14] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66256, l='ServerLevel[Lab_R&S]', x=73.50, y=-20.00, z=-215.50] died: Restless Spirit was killed
+[04:08:26] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66299, l='ServerLevel[Lab_R&S]', x=83.50, y=-20.00, z=-32.50] died: Restless Spirit was killed
+[04:08:33] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> que tiene tu pico
+[04:08:45] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> no se
+[04:08:47] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66336, l='ServerLevel[Lab_R&S]', x=126.50, y=-20.00, z=-72.50] died: Restless Spirit was killed
+[04:08:48] [Server thread/INFO]: §6[Administrativo] §rMi_macho has reached the goal [Common Occurrence]
+[04:08:53] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66356, l='ServerLevel[Lab_R&S]', x=53.50, y=-20.00, z=-213.50] died: Restless Spirit was killed
+[04:08:59] [Server thread/INFO]: [Not Secure] <§c[Auxiliar] §rHanserm> asi fue siempre o recien
+[04:09:12] [Server thread/INFO]: [Not Secure] <§6[Administrativo] §rMi_macho> recien
+[04:09:32] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66485, l='ServerLevel[Lab_R&S]', x=10.50, y=-20.00, z=-216.50] died: Restless Spirit was killed
+[04:09:40] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66508, l='ServerLevel[Lab_R&S]', x=62.50, y=-20.00, z=-16.50] died: Restless Spirit was killed
+[04:09:47] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66516, l='ServerLevel[Lab_R&S]', x=-56.50, y=-20.00, z=-113.50] died: Restless Spirit was killed
+[04:10:04] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66539, l='ServerLevel[Lab_R&S]', x=-48.09, y=-20.00, z=-101.61] died: Restless Spirit was killed
+[04:10:15] [Server thread/INFO]: Named entity class_1634['Restless Spirit'/66554, l='ServerLevel[Lab_R&S]', x=-21.50, y=-20.00, z=-196.50] died: Restless Spirit was killed
